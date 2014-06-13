@@ -8,6 +8,6 @@
         "server_str": "Mensaje server off",
         "update_str": "Mensaje server off",
         "header_description": "Dragonbound hack de tiros perfectos en HTML5",
-        "hosts" : ["https://github.com/aimbotdb/zbot"],
+        "hosts" : ["https://raw.githubusercontent.com/aimbotdb/zbot/master"],
         "mobiles": "tank|armor gum|ice aduka thunder|lightning redfoot2|bigfoot dj|jd ufo|asate random knight nak mage trico|dino turtle grub boomer jfrog dragon kalsiddon fox"
 }

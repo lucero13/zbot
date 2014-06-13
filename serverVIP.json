@@ -3,7 +3,7 @@
         "status": 1,
         "v" : 1,
         "vipurl" : "http://server.com/vip",
-        "shownotice" : {"text":"Bienvenido VIP","speed":70,"color":[0, 200 , 0, 255]},
+        "shownotice" : {"text":"Bienvenido VIP ","speed":70,"color":[0, 200 , 0, 255]},
         "notice_off_str" : {"text":"Aimbot offline...","speed":70,"color":[255, 0 , 0, 255]},
         "server_str": "Mensaje server off",
         "update_str": "Mensaje server off",

@@ -1,7 +1,7 @@
 {
-        "version": 1.1,
+        "version": 1.0,
         "status": 1,
-        "v" : 11,
+        "v" : 1,
         "vipurl" : "https://raw.githubusercontent.com/aimbotdb/zbot/master",
         "shownotice" : {"text":"Bienvenido FREE ","speed":70,"color":[0, 200 , 0, 255]},
         "notice_off_str" : {"text":"Aimbot offline...","speed":70,"color":[255, 0 , 0, 255]},

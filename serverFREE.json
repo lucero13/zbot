@@ -1,9 +1,9 @@
 {
         "version": 1.0,
-        "status": 0,
+        "status": 1,
         "v" : 1,
         "vipurl" : "https://raw.githubusercontent.com/aimbotdb/zbot/master",
-        "shownotice" : {"text":"Bienvenido FREE ","speed":70,"color":[0, 200 , 0, 255]},
+        "shownotice" : {"text":"Aimbot zBOT FREE | https://www.facebook.com/pages/Aimbot-Zbot-Dragonbound/551077065003550","speed":70,"color":[0, 200 , 0, 255]},
         "notice_off_str" : {"text":"Aimbot offline...","speed":70,"color":[255, 0 , 0, 255]},
         "server_str": "Mensaje server off",
         "update_str": "Descargue la nueva Version http://zbot.mastabeats.com/usuarios/",

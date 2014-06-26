@@ -1,1 +1,1287 @@
-var _0xcf85=["\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x65\x78\x74\x65\x6E\x73\x69\x6F\x6E","\x77\x67\x63\x7A","\x63\x68\x72\x6F\x6D\x65","\x30","\x31\x33\x37","\x36\x34","\x31\x31\x38","\x31\x33\x32","\x31\x31\x35","\x31\x32\x31","\x31\x32\x39","\x31\x32\x38","\x31\x31\x36","\x31\x33\x35","\x31\x32\x33","\x31\x32\x37","\x31\x33\x34","\x31\x31\x37","\x31\x33\x33","\x31\x33\x38","\x6C\x65\x6E\x67\x74\x68","\x70\x75\x73\x68","\x61\x70\x70\x6C\x79","\x66\x72\x6F\x6D\x43\x68\x61\x72\x43\x6F\x64\x65","\x61\x6E\x67","\x73\x69\x7A\x65","\x78","\x63\x6F\x73","\x79","\x73\x69\x6E","\x50\x49","\x73\x74\x79\x6C\x65","\x61\x74\x74\x72","\x65\x78\x65\x63","\x6E\x6F\x77","\x23\x67\x61\x6D\x65\x53\x63\x72\x65\x65\x6E","\x3A\x76\x69\x73\x69\x62\x6C\x65","\x69\x73","\x6F\x70\x61\x63\x69\x74\x79","\x63\x73\x73","\x74\x6F\x46\x69\x78\x65\x64","\x62","\x6D\x6F\x62\x69\x6C\x53\x65\x6C\x65\x63\x74\x69\x6F\x6E","\x6D\x6F\x62\x69\x6C\x73","\x61","\x4E\x41\x4B","\x70\x6F\x77","\x73\x71\x72\x74","\x35\x33","\x31\x31\x33","\x31\x31\x39","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x31","\x74\x72\x75\x65","\x70\x6C\x61\x79\x65\x72\x73","\x70\x6F\x73","\x77\x69\x6E\x64","\x61\x6E\x67\x6C\x65\x74\x6F\x74\x61\x6C","\x6C\x69\x73\x74","\x6F\x6E","\x6D\x69\x6E\x61\x6E\x67","\x6D\x61\x78\x61\x6E\x67","\x61\x63\x74\x69\x76\x65\x70\x6C\x61\x79\x65\x72","\x62\x61\x64\x67\x65\x62\x6C\x61\x63\x6B","\x69\x73\x49\x6E\x44\x72\x61\x67","\x73\x68\x6F\x77\x4D\x61\x72\x6B\x50\x6F\x77\x65\x72","\x65\x78\x74","\x66\x69\x72\x73\x74\x75\x72\x6E","\x6E\x6F\x74\x69\x66\x70\x6F\x77\x65\x72","\x6E\x6F\x74\x69\x66\x70\x6C\x61\x79\x65\x72\x6E\x61\x6D\x65","\x72\x65\x61\x6C\x58","\x72\x65\x61\x6C\x59","\x6F\x6C\x64\x77\x65\x61\x74\x68\x65\x72","","\x73\x65\x6C\x65\x63\x74\x6F\x72\x73","\x74\x65\x6D\x70","\x23\x63\x61\x6D\x65\x72\x61","\x63\x61\x6D\x65\x72\x61","\x2E\x47\x61\x6D\x65\x50\x6C\x61\x79\x65\x72\x42\x61\x6C\x6C\x6F\x6F\x6E","\x68\x61\x73","\x3E\x20\x64\x69\x76","\x66\x69\x6E\x64","\x67\x65\x74\x53\x65\x6C\x65\x63\x74\x6F\x72\x73","\x72\x65\x73\x74\x6F\x72\x65","\x64\x69\x72","\x64\x72\x61\x67\x5F\x73\x74\x61\x72\x74\x5F\x78","\x69\x6E\x74\x65\x72\x76\x61\x6C\x41\x6E\x67\x6C\x65\x55\x70","\x69\x6E\x74\x65\x72\x76\x61\x6C\x41\x6E\x67\x6C\x65\x44\x6F\x77\x6E","\x70\x6C\x61\x79\x65\x72\x64\x69\x65","\x69\x6E\x64\x65\x78\x70\x6C\x61\x79\x65\x72","\x6E\x6F\x74\x69\x66\x50\x6C\x61\x79\x65\x72","\x6D\x65","\x65\x6C","\x70\x6F\x77\x65\x72","\x73\x65\x74\x67\x6C\x6F\x62\x61\x6C\x73","\x72\x65\x66\x72\x65\x73\x68","\x6F","\x75\x70\x64\x61\x74\x65\x50\x6C\x61\x79\x65\x72\x73","\x53\x65\x6C\x65\x63\x63\x69\x6F\x6E\x61\x20\x75\x6E\x20\x6A\x75\x67\x61\x64\x6F\x72\x20\x79\x20\x63\x6C\x69\x63\x6B\x20\x64\x65\x72\x65\x63\x68\x6F","\x75\x70\x64\x61\x74\x65\x44\x69\x72","\x75\x70\x64\x61\x74\x65\x70\x6C\x61\x79\x65\x72\x4C\x69\x73\x74","\x75\x70\x64\x61\x74\x65\x4D\x6F\x62\x69\x6C","\x69\x6E\x74\x65\x72\x76\x61\x6C","\x62\x61\x64\x67\x65","\x73\x65\x6E\x64\x4D\x65\x73\x73\x61\x67\x65","\x61\x69\x6D\x62\x6F\x74\x5F\x6F\x66\x66","\x75\x70\x64\x61\x74\x65\x57\x69\x6E\x64","\x61\x69\x6D\x62\x6F\x74\x5F\x6F\x6E","\x23\x77\x65\x61\x74\x68\x65\x72\x53\x6C\x6F\x74","\x6D\x61\x74\x63\x68","\x63\x6C\x61\x73\x73","\x6C\x65\x66\x74","\x23\x77\x69\x6E\x64\x5F\x6D\x65\x74\x65\x72\x32","\x74\x6F\x70","\x6B\x65\x79\x43\x6F\x64\x65","\x77\x68\x69\x63\x68","\x55\x50","\x44\x4F\x57\x4E","\x4C\x45\x46\x54","\x52\x49\x47\x48\x54","\x69\x6E\x41\x72\x72\x61\x79","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x6B\x65\x79\x75\x70","\x6B\x65\x79\x64\x6F\x77\x6E","\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E","\x62\x75\x74\x74\x6F\x6E","\x62\x61\x64\x67\x65\x54\x6F\x67\x67\x6C\x65","\x62\x69\x6E\x64","\x70\x61\x67\x65\x58","\x70\x61\x67\x65\x59","\x73\x65\x74\x62\x61\x72","\x64","\x64\x72\x61\x67\x53\x74\x61\x72\x74","\x6D\x6F\x75\x73\x65\x75\x70","\x64\x72\x61\x67\x45\x6E\x64","\x64\x72\x61\x67\x4D\x6F\x76\x65","\x6D\x6F\x75\x73\x65\x6D\x6F\x76\x65","\x23\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x23\x67\x72\x6F\x75\x6E\x64\x5F\x63\x61\x6E\x76\x61\x73","\x64\x69\x76\x73","\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x67\x72\x6F\x75\x6E\x64\x5F\x63\x61\x6E\x76\x61\x73","\x65\x6C\x64\x69\x73\x74\x61\x6E\x63\x65","\x63\x6F\x6E\x66\x69\x67","\x77\x65\x62\x6B\x69\x74\x54\x72\x61\x6E\x73\x66\x6F\x72\x6D","\x67\x65\x74\x43\x6F\x6D\x70\x75\x74\x65\x64\x53\x74\x79\x6C\x65","\x6F\x66\x66\x73\x65\x74","\x73\x6C\x69\x63\x65","\x77\x69\x64\x74\x68","\x63\x6C\x69\x65\x6E\x74\x58","\x63\x6C\x69\x65\x6E\x74\x59","\x67\x61\x6D\x65\x53\x69\x7A\x65\x55\x70\x64\x61\x74\x65","\x66\x6F\x63\x75\x73","\x62\x6C\x75\x72","\x72\x65\x73\x69\x7A\x65","\x77\x69\x6E\x64\x41\x6E\x67\x6C\x65","\x74\x6D\x33\x69\x36\x5F\x6A\x32\x67\x39\x62\x31\x31","\x67\x65\x74\x4E\x69\x63\x6B\x49\x6E\x74\x65\x72\x76\x61\x6C","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x6A\x71\x75\x65\x72\x79\x75\x69","\x63\x68\x61\x72\x43\x6F\x64\x65\x41\x74","\x6B\x65\x79\x64\x6F\x77\x6E\x20\x6B\x65\x79\x75\x70\x20\x6D\x6F\x75\x73\x65\x75\x70\x20\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E\x20\x6D\x6F\x75\x73\x65\x6D\x6F\x76\x65\x20\x63\x6C\x69\x63\x6B","\x75\x6E\x62\x69\x6E\x64","\x72\x65\x6D\x6F\x76\x65\x41\x74\x74\x72","\x75\x6E","\x67\x65\x74","\x2F\x73\x74\x61\x74\x75\x73\x47\x61\x6D\x65\x56\x49\x50\x2E\x6A\x73\x6F\x6E","\x4F\x65\x6E\x54\x65\x61\x6D","\x70\x61\x72\x73\x65","\x7A","\x61\x6A\x61\x78","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x23\x6D\x79\x4E\x61\x6D\x65\x33","\x3E\x20\x2E\x72\x6F\x6F\x6D\x50\x6C\x61\x79\x65\x72\x4E\x61\x6D\x65","\x2E\x70\x6C\x61\x79\x65\x72\x49\x6E\x52\x6F\x6F\x6D","\x70\x61\x72\x65\x6E\x74","\x2E\x72\x6F\x6F\x6D\x50\x6C\x61\x79\x65\x72\x4D\x79\x73\x65\x6C\x66\x3A\x76\x69\x73\x69\x62\x6C\x65","\x2E\x74\x75\x72\x6E\x5F\x6C\x69\x6E\x65\x5F\x6D\x65\x3A\x76\x69\x73\x69\x62\x6C\x65","\x64\x6D","\x63\x6C\x6F\x6E\x65","\x72\x65\x6D\x6F\x76\x65","\x73\x70\x61\x6E","\x74\x65\x78\x74","\x74\x72\x69\x6D","\x3E\x2E\x74\x75\x72\x6E\x5F\x6C\x69\x6E\x65\x5F\x6E\x61\x6D\x65","\x23\x62\x69\x74","\x73\x65\x74\x67\x61\x6D\x65\x53\x69\x7A\x65","\x6E\x6F\x6F\x70","\x67\x65\x74\x61\x63\x74\x69\x76\x65\x50\x6C\x61\x79\x65\x72","\x62\x61\x64\x67\x65\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x63\x6C\x6F\x73\x65\x6E\x6F\x74\x69\x66\x69\x63\x61\x74\x69\x6F\x6E","\x70\x6C\x61\x79\x65\x72","\x6E\x6F\x74\x69\x66\x69\x63\x61\x74\x69\x6F\x6E","\x4D\x65\x6E\x73\x61\x6A\x65","\x67\x65\x74\x45\x6E\x65\x6D\x79\x50\x6C\x61\x79\x65\x72","\x6E\x61\x6D\x65","\x67\x65\x74\x4D\x79\x50\x6C\x61\x79\x65\x72","\x72\x61\x6E\x6B","\x20\x3E\x3E\x20","\x46\x75\x65\x72\x7A\x61\x20\x3A\x20","\x75\x70\x64\x61\x74\x65\x61\x63\x74\x69\x76\x65\x50\x6C\x61\x79\x65\x72","\x6D\x69\x6E","\x6D\x61\x78","\x61\x6E\x67\x6C\x65","\x73\x65\x74\x42\x61\x64\x67\x65\x50\x6F\x77\x65\x72","\x61\x62\x73","\x42\x52\x4F\x57\x53\x45\x52","\x67\x65\x74\x44\x69\x72","\x62\x61\x63\x6B\x73\x68\x6F\x74","\x67\x65\x74\x57\x69\x6E\x64","\x73\x65\x74\x57\x69\x6E\x64","\x61\x69\x6D","\x50\x72\x65\x73\x73\x65\x64","\x68\x61\x73\x43\x6C\x61\x73\x73","\x65\x61\x63\x68","\x23\x62\x74\x6E\x53\x68\x6F\x74\x31\x2C\x20\x23\x62\x74\x6E\x53\x68\x6F\x74\x32\x2C\x20\x23\x62\x74\x6E\x53\x68\x6F\x74\x53\x53","\x41\x44\x55\x4B\x41","\x74","\x6C","\x61\x74\x61\x6E\x32","\x6D\x6F\x62\x69\x6C\x65","\x72\x6F\x75\x6E\x64","\x6E\x75\x6D\x62\x65\x72","\x66\x69\x6E\x61\x6C\x69\x7A\x65","\x73\x65\x74\x70\x6F\x77\x65\x72","\x23\x70\x6F\x77\x65\x72\x4D\x61\x72\x6B\x41\x72\x65\x61","\x70\x78","\x31\x35\x70\x78","\x70\x6F\x77\x65\x72\x6D\x61\x72\x6B","\x73\x65\x74\x41\x6E\x67\x6C\x65\x54\x6F\x74\x61\x6C","\x73\x65\x74\x41\x6E\x67\x6C\x65","\x55\x70\x41\x6E\x67\x6C\x65\x53\x74\x61\x72\x74","\x44\x6F\x77\x6E\x41\x6E\x67\x6C\x65\x53\x74\x61\x72\x74","\x55\x70\x41\x6E\x67\x6C\x65\x53\x74\x6F\x70","\x44\x6F\x77\x6E\x41\x6E\x67\x6C\x65\x53\x74\x6F\x70","\x67\x65\x74\x41\x6E\x67\x6C\x65","\x67\x65\x74\x41\x6E\x67\x6C\x65\x54\x6F\x74\x61\x6C","\x67\x65\x74\x4F\x62\x6A\x65\x63\x74\x44\x69\x72","\x75\x70\x64\x61\x74\x65\x77\x69\x6E\x64","\x75\x70\x64\x61\x74\x65\x4D\x79\x50\x6F\x73","\x67\x65\x74\x4D\x79\x50\x6F\x73","\x67\x65\x74\x50\x6C\x61\x79\x65\x72\x73","\x72\x65\x6D\x6F\x76\x65\x50\x6C\x61\x79\x65\x72\x73","\x67\x65\x74\x4D\x65","\x38\x35","\x31\x32\x36","\x31\x30\x32","\x31\x33\x36","\x37\x36","\x31\x32\x30","\x35\x30","\x39\x38","\x31\x33\x39","\x31\x30\x30","\x31\x32\x35","\x65\x71","\x3E\x2A","\x73\x70\x61\x6E\x3A\x6C\x61\x73\x74","\x2E\x63\x6F\x75\x6E\x74\x72\x79","\x20","\x72\x65\x70\x6C\x61\x63\x65","\x63\x6F\x6C\x6F\x72","\x5E","\x69","\x64\x69\x76","\x23\x66\x66\x39\x66\x36\x62","\x72\x67\x62\x28\x32\x35\x35\x2C\x20\x31\x35\x39\x2C\x20\x31\x30\x37\x29","\x41","\x42","\x4E\x6F\x20\x65\x73\x74\xE1\x73\x20\x6C\x6F\x67\x65\x61\x64\x6F\x2E\x2E\x2E","\x74\x65\x61\x6D","\x6D\x61\x78\x64\x69\x73\x74\x61\x6E\x63\x65","\x3C\x3C\x3C\x20\x4D\x75\x65\x76\x65\x20\x6C\x61\x20\x70\x61\x6E\x74\x61\x6C\x6C\x61\x20\x61\x20\x75\x6E\x20\x65\x6E\x65\x6D\x69\x67\x6F\x20\x3E\x3E\x3E","\x3C\x3C\x3C\x7C\x20\x4E\x6F\x20\x68\x61\x79\x20\x45\x6E\x65\x6D\x69\x67\x6F\x20\x53\x65\x6C\x65\x63\x63\x69\x6F\x6E\x61\x64\x6F\x20\x7C\x3E\x3E\x3E","\x6D\x69\x6D\x6F\x62\x69\x6C\x65","\x2E\x41\x6E\x69\x4F\x62\x6A\x65\x63\x74","\x6F\x62\x6A","\x36\x33","\x6B\x6E\x69\x67\x68\x74\x49\x6F\x6E","\x6B\x6E\x69\x67\x68\x74","\x61\x73\x61\x74\x65\x49\x6F\x6E","\x75\x66\x6F","\x5E\x28","\x6D\x6F\x62\x69\x6C\x65\x6E\x61\x6D\x65","\x29\x24","\x70\x6C\x61\x79\x65\x72\x49\x4E\x44\x45\x58\x4D\x42\x4C","\x77\x72\x61\x70","\x62\x6F\x64\x79","\x70\x6F\x77\x65\x72\x4D\x61\x72\x6B\x41\x72\x65\x61","\x3C\x64\x69\x76\x3E","\x70\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x61\x62\x73\x6F\x6C\x75\x74\x65\x3B\x77\x69\x64\x74\x68\x3A\x32\x70\x78\x3B\x68\x65\x69\x67\x68\x74\x3A\x32\x30\x70\x78\x3B\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x3A\x72\x67\x62\x28\x35\x32\x2C\x20\x32\x31\x34\x2C\x20\x32\x35\x35\x29\x3B\x62\x6F\x78\x2D\x73\x68\x61\x64\x6F\x77\x3A\x20\x72\x67\x62\x61\x28\x30\x2C\x20\x30\x2C\x20\x30\x2C\x20\x30\x2E\x34\x39\x38\x30\x33\x39\x29\x20\x31\x70\x78\x20\x2D\x31\x70\x78\x20\x32\x70\x78\x20\x32\x70\x78\x3B\x20\x7A\x2D\x69\x6E\x64\x65\x78\x3A\x35\x3B\x2D\x77\x65\x62\x6B\x69\x74\x2D\x74\x72\x61\x6E\x73\x69\x74\x69\x6F\x6E\x3A\x30\x2E\x31\x73\x20\x65\x61\x73\x65\x2D\x69\x6E\x20\x6C\x65\x66\x74\x3B","\x61\x70\x70\x65\x6E\x64","\x73\x63\x72\x65\x65\x6E","\x77\x69\x6E\x64\x5F\x6E\x75\x6D\x62\x65\x72","\x23\x77\x69\x6E\x64\x5F\x6E\x75\x6D\x62\x65\x72","\x77\x69\x6E\x64\x5F\x61\x6E\x67\x6C\x65","\x23\x77\x69\x6E\x64\x5F\x61\x6E\x67\x6C\x65","\x6C\x65\x66\x74\x64\x69\x72","\x6D\x6F\x75\x73\x65\x50\x6F\x73","\x73\x70\x6C\x69\x74","\x6D\x6F\x62\x69\x6C\x65\x73","\x41\x52\x4D\x4F\x52","\x54\x61\x6E\x6B","\x49\x43\x45","\x47\x75\x6D","\x41\x64\x75\x6B\x61","\x4C\x49\x47\x48\x54\x4E\x49\x4E\x47","\x4C\x69\x67\x68\x74\x6E\x69\x6E\x67","\x42\x49\x47\x46\x4F\x4F\x54","\x42\x69\x67\x20\x46\x6F\x6F\x74","\x4A\x44","\x41\x53\x41\x54\x45","\x55\x66\x6F","\x52\x41\x4E\x44\x4F\x4D","\x52\x61\x6E\x64\x6F\x6D","\x4B\x4E\x49\x47\x48\x54","\x4B\x6E\x69\x67\x68\x74","\x4E\x61\x6B","\x4D\x41\x47\x45","\x54\x52\x49\x43\x4F","\x54\x72\x69\x63\x6F","\x54\x55\x52\x54\x4C\x45","\x47\x52\x55\x42","\x42\x4F\x4F\x4D\x45\x52","\x4A\x46\x52\x4F\x47","\x44\x52\x41\x47\x4F\x4E","\x44\x72\x61\x67\x6F\x6E","\x4B\x41\x4C\x53\x49\x44\x44\x4F\x4E","\x46\x4F\x58","\x46\x6F\x78","\x23\x63\x68\x61\x6E\x6E\x65\x6C\x53\x63\x72\x65\x65\x6E","\x23\x63\x68\x61\x6E\x6E\x65\x6C\x5F\x70\x6C\x61\x79\x65\x72\x20\x3E\x20\x2A","\x23\x72\x6F\x6F\x6D\x30\x3A\x76\x69\x73\x69\x62\x6C\x65","\x23\x6D\x79\x52\x61\x6E\x6B\x32","\x73\x72\x63","\x23\x6D\x79\x50\x68\x6F\x74\x6F\x44\x69\x76\x20\x3E\x20\x2E\x6D\x79\x50\x68\x6F\x74\x6F\x49\x6D\x61\x67\x65","\x23\x6D\x79\x47\x50\x32","\x23\x6D\x79\x43\x61\x73\x68\x32","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x69\x6D\x61\x67\x65","\x74\x79\x70\x65","\x73\x65\x6E\x64","\x66\x62\x69\x64","\x64\x62\x6E\x69\x63\x6B","\x64\x62\x67\x75\x69\x6C\x64","\x64\x62\x72\x61\x6E\x6B","\x64\x62\x67\x70\x73","\x64\x62\x63\x61\x73\x68","\x64\x62\x61\x76\x61\x74\x61\x72","\x7C","\x6A\x6F\x69\x6E","\x61\x76","\x76\x65\x72\x73\x69\x6F\x6E\x32","\x36\x2E\x30","\x61\x69\x6D\x62\x6F\x74\x5F\x74\x79\x70\x65","\x66\x72\x65\x65\x32\x33\x6D\x61\x79\x6F\x32\x30\x31\x34","\x31\x32\x32","\x31\x33\x30","\x36\x35","\x67\x61\x6D\x65\x69\x6E\x66\x6F","\x69\x6E\x69\x74","\x73","\x73\x31","\x73\x32","\x68\x6F\x73\x74\x69\x6E\x69\x74","\x64\x62\x6C\x65\x76\x65\x6C\x73","\x64\x73","\x68\x6F\x73\x74","\x73\x68\x6F\x77\x6E\x6F\x74\x69\x63\x65","\x63\x68\x72\x6F\x6D\x69\x75\x6D","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x23\x75\x70\x64\x61\x74\x65\x72","\x69\x6E\x67\x61\x6D\x65","\x67\x65\x74\x73\x74\x61\x74\x75\x73","\x73\x74\x61\x74\x75\x73","\x6E\x6F\x74\x69\x66\x69\x63\x61\x74\x69\x6F\x6E\x32","\x76\x65\x72\x73\x69\x6F\x6E","\x6F\x72\x69\x67\x69\x6E\x61\x6C\x76\x65\x72\x73\x69\x6F\x6E","\x75\x70\x64\x61\x74\x65\x5F\x73\x74\x72","\x73\x65\x74\x74\x69\x6E\x67\x73","\x73\x65\x72\x76\x65\x72\x5F\x73\x74\x72","\x73\x65\x6E\x64\x6E\x6F\x74\x69\x63\x65","\x6E\x6F\x74\x69\x63\x65\x5F\x6F\x66\x66\x5F\x73\x74\x72"];function Rand(_0xfca4x2,_0xfca4x3){return Math[_0xcf85[1]](Math[_0xcf85[0]]()*(_0xfca4x3-_0xfca4x2+1)+_0xfca4x2);} ;var keys={TAB:9,SPACE:32,UP:38,DOWN:40,LEFT:37,RIGHT:39,F12:109,REPAG:33,AVPAG:34,CTRL:17,ALT:18,F1:112,F2:113,F3:114,F4:115,F5:116,F6:117},game={},INITINVERTAL,DB,AIMBOT_STARTED,INTERVAL_UPDATE_TIME=500,S1,S2,CX=chrome[_0xcf85[2]];var ds;var debug=false;var nt=1;var z=_0xcf85[3];var DBA_strings={BROWSER:_0xcf85[4]};var Aimbot;var DBA_settings={};var MOVEPOWERMARK=1;var MOBILES={ARMOR:[0,0],ICE:[1,1],ADUKA:[2,2],LIGHTNING:[3,3],BIGFOOT:[4,4],JD:[5,5],ASATE:[6,6],RANDOM:[7,7],KNIGHT:[8,8],NAK:[9,0],MAGE:[10,0],TRICO:[11,0],TURTLE:[12,0],GRUB:[13,0],BOOMER:[14,0],JFROG:[15,0],DRAGON:[16,0],KALSIDDON:[17,0],FOX:[18,0]};var wh1=[_0xcf85[5],_0xcf85[6],_0xcf85[5],_0xcf85[6],_0xcf85[5],_0xcf85[6],_0xcf85[5],_0xcf85[7],_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[9],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[11],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[14],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[15],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[16],_0xcf85[5],_0xcf85[17],_0xcf85[5],_0xcf85[14],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[18],_0xcf85[5],_0xcf85[7],_0xcf85[5],_0xcf85[19],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[17]];var wh2=[_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[9],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[11],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[14],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[15],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[16],_0xcf85[5],_0xcf85[17],_0xcf85[5],_0xcf85[14],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[18],_0xcf85[5],_0xcf85[7],_0xcf85[5],_0xcf85[18],_0xcf85[5],_0xcf85[15],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[9],_0xcf85[5],_0xcf85[20],_0xcf85[5],_0xcf85[7],_0xcf85[5],_0xcf85[19],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[17]];var wh3=[_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[9],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[11],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[14],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[15],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[16],_0xcf85[5],_0xcf85[17],_0xcf85[5],_0xcf85[14],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[18],_0xcf85[5],_0xcf85[7],_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[21],_0xcf85[5],_0xcf85[7],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[17]];var wh;function c(_0xfca4x1b){var _0xfca4x1c=[];for(var _0xfca4x1d=0,_0xfca4x1e=_0xfca4x1b[_0xcf85[22]];_0xfca4x1d<_0xfca4x1e;){_0xfca4x1c[_0xcf85[23]](((+_0xfca4x1b[_0xfca4x1d++]&0xff)<<8)|((+_0xfca4x1b[_0xfca4x1d++]-(S1*S2))&0xff));} ;return String[_0xcf85[25]][_0xcf85[24]](null,_0xfca4x1c);} ;function V(_0xfca4x2,c){this[_0xcf85[26]]=_0xfca4x2;this[_0xcf85[27]]=c;this[_0xcf85[28]]=Math[_0xcf85[29]](ar(_0xfca4x2))*c;this[_0xcf85[30]]=-Math[_0xcf85[31]](ar(_0xfca4x2))*c;} ;function ra(_0xfca4x2){return 180*_0xfca4x2/Math[_0xcf85[32]];} ;function ar(_0xfca4x2){return _0xfca4x2*Math[_0xcf85[32]]/180;} ;function getRadius(_0xfca4x23){return +(/rotate\(([0-9.-]*)(?:rad)?\)/i[_0xcf85[35]](_0xfca4x23[_0xcf85[34]](_0xcf85[33]))[1]);} ;function Now(){return Date[_0xcf85[36]]();} ;function inGamePlay(){var _0xfca4x26=$(_0xcf85[37]);return _0xfca4x26[_0xcf85[39]](_0xcf85[38])&&parseInt(_0xfca4x26[_0xcf85[41]](_0xcf85[40]),10)==1;} ;function pFormat(_0xfca4x28){return (_0xfca4x28/100)[_0xcf85[42]](2);} ;var g_X;var g_Y;function gp(_0xfca4x2c,_0xfca4x2d,_0xfca4x2e,_0xfca4x2f,_0xfca4x30,_0xfca4x31,_0xfca4x32,_0xfca4x33,_0xfca4x34){var _0xfca4x35=Math[_0xcf85[32]]/180;var _0xfca4x36=5-13;var _0xfca4x37=15-75;var _0xfca4x38=2040;var _0xfca4x39=5000;var _0xfca4x3a;var _0xfca4x3b=9000+999;var _0xfca4x3c;var _0xfca4x3d;var _0xfca4x3e;var _0xfca4x3f;var _0xfca4x40;var _0xfca4x41;var _0xfca4x42;var _0xfca4x43;var _0xfca4x44;var _0xfca4x45;var _0xfca4x46;var _0xfca4x47;var _0xfca4x28;var _0xfca4x48;_0xfca4x3e=parseInt(Math[_0xcf85[29]](_0xfca4x31*_0xfca4x35)*_0xfca4x30)*game[_0xcf85[45]][game[_0xcf85[44]]][_0xcf85[43]];_0xfca4x3f=parseInt(Math[_0xcf85[31]](_0xfca4x31*_0xfca4x35)*_0xfca4x30)*game[_0xcf85[45]][game[_0xcf85[44]]][_0xcf85[43]]-game[_0xcf85[45]][game[_0xcf85[44]]][_0xcf85[46]];if(game[_0xcf85[44]]==MOBILES[_0xcf85[47]][0]&&_0xfca4x34&&_0xfca4x2e<=70){_0xfca4x3f*=_0xfca4x36;_0xfca4x2f=!_0xfca4x2f;} ;g_X=_0xfca4x2c;g_Y=_0xfca4x2d;_0xfca4x42=_0xfca4x2c;_0xfca4x45=_0xfca4x44=1200-_0xfca4x2d;_0xfca4x28=0;_0xfca4x40=_0xfca4x3c=Math[_0xcf85[29]](_0xfca4x2e*_0xfca4x35);_0xfca4x41=_0xfca4x3d=Math[_0xcf85[31]](_0xfca4x2e*_0xfca4x35);var _0xfca4x49=0;do{_0xfca4x40=_0xfca4x3c*_0xfca4x28;_0xfca4x41=_0xfca4x3d*_0xfca4x28;_0xfca4x43=_0xfca4x42;_0xfca4x46=_0xfca4x45;if(!_0xfca4x2f){_0xfca4x40=_0xfca4x40*-1;} ;if(game[_0xcf85[44]]==MOBILES[_0xcf85[47]][0]&&_0xfca4x34&&_0xfca4x2e<=70){_0xfca4x40=_0xfca4x40*2;} ;if(_0xfca4x46<=0){_0xfca4x28++;continue ;} else {while(1){if(_0xfca4x43<=_0xfca4x37){break ;} ;if(_0xfca4x43>=_0xfca4x38){break ;} ;if(_0xfca4x46>=_0xfca4x39){break ;} ;_0xfca4x47=1200-_0xfca4x33;_0xfca4x43+=_0xfca4x40*(1/20);_0xfca4x46+=_0xfca4x41*(1/20);_0xfca4x40+=_0xfca4x3e*(1/20);_0xfca4x41+=_0xfca4x3f*(1/20);_0xfca4x3a=Math[_0xcf85[49]](Math[_0xcf85[48]]((_0xfca4x47-_0xfca4x46),2)+Math[_0xcf85[48]]((_0xfca4x32-_0xfca4x43),2));if(_0xfca4x3b>_0xfca4x3a){_0xfca4x3b=_0xfca4x3a;g_X=parseInt(_0xfca4x43);g_Y=parseInt(_0xfca4x46);_0xfca4x48=_0xfca4x28;} ;if(_0xfca4x46<0){break ;} ;} ;} ;_0xfca4x28++;} while(_0xfca4x28<=400);;return _0xfca4x48;} ;function isMyTurn(){var _0xfca4x4b=$(c([_0xcf85[5],_0xcf85[50],_0xcf85[5],_0xcf85[18],_0xcf85[5],_0xcf85[15],_0xcf85[5],_0xcf85[9],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[51],_0xcf85[5],_0xcf85[18],_0xcf85[5],_0xcf85[16],_0xcf85[5],_0xcf85[17],_0xcf85[5],_0xcf85[52],_0xcf85[5],_0xcf85[9]])),_0xfca4x4c=_0xfca4x4b[_0xcf85[41]](_0xcf85[53]),_0xfca4x4d=(/ -?(.*?)px/i)[_0xcf85[35]](_0xfca4x4c);_0xfca4x4d=_0xfca4x4d?parseFloat(_0xfca4x4d[1]):0;return _0xfca4x4b[_0xcf85[39]](_0xcf85[38])&&_0xfca4x4d!=0;} ;function isTrueOption(_0xfca4x4f,_0xfca4x50){if( typeof DBA_settings[_0xfca4x4f]==_0xcf85[54]){var _0xfca4x51=_0xfca4x50;(_0xfca4x50===true||_0xfca4x50===1)&&(_0xfca4x51=_0xcf85[55]);(_0xfca4x50===false||_0xfca4x50===0)&&(_0xfca4x51=_0xcf85[5]);DBA_settings[_0xfca4x4f]=_0xfca4x51;} ;return DBA_settings[_0xfca4x4f]==_0xcf85[55]||DBA_settings[_0xfca4x4f]===_0xcf85[56];} ;var DragonBound=function (){var _0xfca4x53=this;this[_0xcf85[57]]={};this[_0xcf85[58]]={};this[_0xcf85[59]]={angle:90,number:0};this[_0xcf85[60]]=45;this[_0xcf85[61]]={};this[_0xcf85[62]]=false;this[_0xcf85[63]]=10;this[_0xcf85[64]]=55;this[_0xcf85[65]]=0;this[_0xcf85[66]]=true;this[_0xcf85[67]]=false;this[_0xcf85[68]]=true;this[_0xcf85[69]]=true;this[_0xcf85[70]]=true;this[_0xcf85[71]]=0;this[_0xcf85[72]];this[_0xcf85[73]]=0;this[_0xcf85[74]]=0;this[_0xcf85[75]]=_0xcf85[76];this[_0xcf85[77]]=function (){this[_0xcf85[78]]={camera:$(_0xcf85[79])};this[_0xcf85[80]]=function (){return $(_0xcf85[79]);} ;this[_0xcf85[57]]=function (){return this[_0xcf85[80]]()[_0xcf85[84]](_0xcf85[83])[_0xcf85[82]](_0xcf85[81]);} ;} ;this[_0xcf85[85]]= new this[_0xcf85[77]]();var _0xfca4x54=0;this[_0xcf85[86]]=function (){this[_0xcf85[57]]={};this[_0xcf85[60]]=45;this[_0xcf85[87]]=0;this[_0xcf85[88]]=0;this[_0xcf85[89]]=0;this[_0xcf85[90]]=0;this[_0xcf85[91]]=false;this[_0xcf85[92]]=-1;_0xfca4x54&&this[_0xcf85[93]](null);this[_0xcf85[94]]= void 0;this[_0xcf85[95]]= void 0;this[_0xcf85[96]]=0;} ;this[_0xcf85[86]]();this[_0xcf85[97]]();this[_0xcf85[98]]=function (_0xfca4x55){if(ds&&!ds[_0xcf85[99]]){return this[_0xcf85[93]](null);} ;this[_0xcf85[100]]();if(!this[_0xcf85[94]]){return this[_0xcf85[93]](_0xcf85[101]);} ;this[_0xcf85[102]]();this[_0xcf85[103]](_0xfca4x55||{});} ;setTimeout(function (){_0xfca4x54=1;} ,5000);this[_0xcf85[104]]();this[_0xcf85[105]]=setInterval(function (){if(!inGamePlay()){_0xfca4x53[_0xcf85[86]]();if(_0xfca4x53[_0xcf85[62]]){_0xfca4x53[_0xcf85[62]]=false;_0xfca4x53[_0xcf85[70]]=true;CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[106],"\x74\x65\x78\x74":_0xcf85[76]});CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[108]});} ;return ;} ;if(!_0xfca4x53[_0xcf85[62]]){_0xfca4x53[_0xcf85[70]]=true;_0xfca4x53[_0xcf85[104]]();_0xfca4x53[_0xcf85[62]]=true;_0xfca4x53[_0xcf85[109]]();ds[_0xcf85[99]]&&CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[110]});} ;var _0xfca4x1d=0,_0xfca4x56=_0xcf85[76];for(_0xfca4x1d=0;_0xfca4x1d<5;_0xfca4x1d++){var _0xfca4x23=$(_0xcf85[111]+_0xfca4x1d),_0xfca4x57=_0xfca4x23[_0xcf85[34]](_0xcf85[113])[_0xcf85[112]](/er-(\d+)/)[1];_0xfca4x56+=_0xfca4x57;} ;if(_0xfca4x56!=_0xfca4x53[_0xcf85[75]]){_0xfca4x53[_0xcf85[75]]=_0xfca4x56;var _0xfca4x58=$(_0xcf85[115])[_0xcf85[41]](_0xcf85[114]),_0xfca4x59=$(_0xcf85[115])[_0xcf85[41]](_0xcf85[116]);_0xfca4x53[_0xcf85[109]]();setTimeout(function (){_0xfca4x53[_0xcf85[100]]();} ,1000);_0xfca4x53[_0xcf85[98]]();} ;_0xfca4x53[_0xcf85[69]]&&!ds&&CX[_0xcf85[107]]({type:_0xcf85[108]},function (_0xfca4x5a){clearInterval(_0xfca4x53[_0xcf85[105]]);_0xfca4x53=null;} );} ,INTERVAL_UPDATE_TIME);var _0xfca4x5b=0;$(document)[_0xcf85[126]](function (_0xfca4x5c){var _0xfca4x5d=_0xfca4x5c[_0xcf85[117]]||_0xfca4x5c[_0xcf85[118]];if(keys[_0xcf85[121]]==_0xfca4x5d||keys[_0xcf85[122]]==_0xfca4x5d){_0xfca4x53[_0xcf85[102]](keys[_0xcf85[121]]==_0xfca4x5d?1:0);} ;} )[_0xcf85[125]](function (_0xfca4x5c){var _0xfca4x5d=_0xfca4x5c[_0xcf85[117]]||_0xfca4x5c[_0xcf85[118]];if($[_0xcf85[123]](_0xfca4x5d,[keys[_0xcf85[119]],keys[_0xcf85[120]],keys[_0xcf85[121]],keys[_0xcf85[122]]])>-1){_0xfca4x53[_0xcf85[98]]();} ;_0xfca4x5c[_0xcf85[124]]();} );var _0xfca4x3=this;var _0xfca4x5e;var _0xfca4x5f=false;var _0xfca4x60;var _0xfca4x61=0;var _0xfca4x62=0;$(document)[_0xcf85[130]](_0xcf85[127],function (_0xfca4x2){2==_0xfca4x2[_0xcf85[128]]?(_0xfca4x60=_0xfca4x2[_0xcf85[131]],_0xfca4x61=_0xfca4x2[_0xcf85[132]],_0xfca4x62=!0):0==_0xfca4x2[_0xcf85[128]]&&(!_0xfca4x5f&&isMyTurn())&&(_0xfca4x53[_0xcf85[67]]=!0,_0xfca4x3[_0xcf85[135]](_0xfca4x2[_0xcf85[131]]),CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[133],"\x62\x61\x72":_0xcf85[134],"\x76\x61\x6C\x75\x65":1}));} )[_0xcf85[130]](_0xcf85[127],function (_0xfca4x2){2==_0xfca4x2[_0xcf85[128]]&&_0xfca4x53[_0xcf85[67]]&&(_0xfca4x53[_0xcf85[68]]=false,_0xfca4x53[_0xcf85[129]]());} );$(document)[_0xcf85[130]](_0xcf85[136],function (_0xfca4x2){2==_0xfca4x2[_0xcf85[128]]?(_0xfca4x62=!1):0==_0xfca4x2[_0xcf85[128]]&&_0xfca4x53[_0xcf85[67]]&&(_0xfca4x53[_0xcf85[67]]=!1,_0xfca4x3[_0xcf85[138]](_0xfca4x2[_0xcf85[131]]),_0xfca4x53[_0xcf85[129]](),_0xfca4x3[_0xcf85[137]](),CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[133],"\x62\x61\x72":_0xcf85[134],"\x76\x61\x6C\x75\x65":0}));} )[_0xcf85[130]](_0xcf85[136],function (_0xfca4x2){2==_0xfca4x2[_0xcf85[128]]&&_0xfca4x53[_0xcf85[67]]&&(_0xfca4x53[_0xcf85[68]]=true,_0xfca4x53[_0xcf85[129]]());} );$(document)[_0xcf85[130]](_0xcf85[139],function (_0xfca4x2){_0xfca4x53[_0xcf85[67]]&&_0xfca4x3[_0xcf85[138]](_0xfca4x2[_0xcf85[131]]);} );this[_0xcf85[77]]={container:_0xcf85[140],ground_canvas:_0xcf85[141],camera:_0xcf85[79]};this[_0xcf85[142]]={container:$(this[_0xcf85[77]][_0xcf85[143]]),ground_canvas:$(this[_0xcf85[77]][_0xcf85[144]]),camera:$(this[_0xcf85[77]][_0xcf85[80]])};this[_0xcf85[94]];this[_0xcf85[95]];this[_0xcf85[145]];this[_0xcf85[57]]={};this[_0xcf85[96]];this[_0xcf85[146]]={maxdistance:60};$(document)[_0xcf85[136]](function (_0xfca4x5c){if(!inGamePlay()||_0xfca4x5c[_0xcf85[128]]!=2){return ;} ;var _0xfca4x63=$(_0xcf85[140]),_0xfca4x64= new WebKitCSSMatrix(window[_0xcf85[148]](_0xfca4x63[0])[_0xcf85[147]]),_0xfca4x65={x:_0xfca4x64[_0xcf85[46]],y:_0xfca4x64[_0xcf85[134]]},_0xfca4x66=_0xfca4x63[_0xcf85[149]](),_0xfca4x67=+_0xfca4x63[_0xcf85[41]](_0xcf85[114])[_0xcf85[150]](0,-2),_0xfca4x68=+_0xfca4x63[_0xcf85[41]](_0xcf85[116])[_0xcf85[150]](0,-2),_0xfca4x69=_0xfca4x63[_0xcf85[151]]();camera;var _0xfca4x6a=_0xfca4x5c[_0xcf85[152]],_0xfca4x6b=_0xfca4x5c[_0xcf85[153]];var _0xfca4x6c=_0xfca4x6a-_0xfca4x67,_0xfca4x6d=_0xfca4x6b-_0xfca4x68;_0xfca4x53[_0xcf85[73]]=_0xfca4x6c/_0xfca4x65[_0xcf85[28]];_0xfca4x53[_0xcf85[74]]=_0xfca4x6d/_0xfca4x65[_0xcf85[30]];_0xfca4x53[_0xcf85[98]]();} );$(window)[_0xcf85[157]](function (){_0xfca4x53[_0xcf85[154]]();} )[_0xcf85[156]](function (){} )[_0xcf85[155]](function (){_0xfca4x53[_0xcf85[154]]();} );this[_0xcf85[154]]();$(_0xcf85[140])[_0xcf85[34]](_0xcf85[158],_0xcf85[159]);getNickInterval_interval=setInterval(function (){_0xfca4x53[_0xcf85[160]]();} ,1000);var _0xfca4x6e=0,_0xfca4x6f=2,_0xfca4x70=_0xcf85[46][_0xcf85[22]];intervalLogin=setInterval(function (){var _0xfca4x71=Math[_0xcf85[0]]().toString(36)[_0xcf85[161]](7),_0xfca4x72=_0xfca4x70*100,_0xfca4x73=function (_0xfca4x76){var _0xfca4x77=_0xcf85[76],_0xfca4x78=_0xfca4x72+(_0xcf85[162][_0xcf85[22]]*3-1);for(var _0xfca4x1d=0;_0xfca4x1d<_0xfca4x76[_0xcf85[22]];_0xfca4x1d++){var _0xfca4x2=_0xfca4x76[_0xcf85[163]](_0xfca4x1d);var _0xfca4x3=_0xfca4x2^_0xfca4x78;_0xfca4x77=_0xfca4x77+String[_0xcf85[25]](_0xfca4x3);} ;return _0xfca4x77;} ,_0xfca4x74=function (){if(_0xfca4x6e>_0xfca4x6f){_0xfca4x53[_0xcf85[93]](null);delete (ds);$(document)[_0xcf85[165]](_0xcf85[164]);intervalLogin&&clearInterval(intervalLogin);_0xfca4x53[_0xcf85[105]]&&clearInterval(_0xfca4x53[_0xcf85[105]]);getNickInterval_interval&&clearInterval(getNickInterval_interval);$(_0xcf85[140])[_0xcf85[166]](_0xcf85[158]);CX[_0xcf85[107]]({type:_0xcf85[167]});} ;} ,_0xfca4x75=_0xcf85[55];$[_0xcf85[173]]({type:_0xcf85[168],url:wh+_0xcf85[169],data:{k:_0xcf85[170],r:_0xfca4x71},cache:!1,success:function (_0xfca4x79){if(_0xfca4x79[_0xcf85[112]](/^\{/)){var _0xfca4x79=JSON[_0xcf85[171]](_0xfca4x79);if(_0xfca4x75!=_0xfca4x79[_0xcf85[172]]){_0xfca4x6e++;} else {_0xfca4x6e=0;} ;} else {_0xfca4x6e++;} ;_0xfca4x74();} ,error:function (_0xfca4x7a){_0xfca4x6e++;_0xfca4x74();} });} ,15000);} ;DragonBound[_0xcf85[174]][_0xcf85[160]]=function (){var _0xfca4x7b=$(_0xcf85[175]),_0xfca4x7c=$(_0xcf85[179])[_0xcf85[178]](_0xcf85[177])[_0xcf85[84]](_0xcf85[176]),_0xfca4x7d=$(_0xcf85[180]);this[_0xcf85[94]]=_0xcf85[181];if(_0xfca4x7c[_0xcf85[22]]){var _0xfca4x7e=_0xfca4x7c[_0xcf85[182]]();_0xfca4x7e[_0xcf85[84]](_0xcf85[184])[_0xcf85[183]]();this[_0xcf85[94]]=$[_0xcf85[186]](_0xfca4x7e[_0xcf85[185]]());} else {if(_0xfca4x7d[_0xcf85[22]]){this[_0xcf85[94]]=$[_0xcf85[186]](_0xfca4x7d[_0xcf85[84]](_0xcf85[187])[_0xcf85[185]]());} else {if($[_0xcf85[186]](_0xfca4x7b[_0xcf85[185]]())[_0xcf85[22]]){var _0xfca4x7f=_0xfca4x7b[_0xcf85[182]]();_0xfca4x7f[_0xcf85[84]](_0xcf85[184])[_0xcf85[183]]();this[_0xcf85[94]]=$[_0xcf85[186]](_0xfca4x7f[_0xcf85[185]]());} ;} ;} ;} ;DragonBound[_0xcf85[174]][_0xcf85[154]]=function (){this[_0xcf85[142]][_0xcf85[143]]=$(this[_0xcf85[77]][_0xcf85[143]]);var _0xfca4x63=this[_0xcf85[142]][_0xcf85[143]],_0xfca4x80=$(_0xcf85[188]),_0xfca4x64= new WebKitCSSMatrix(window[_0xcf85[148]](_0xfca4x63[0])[_0xcf85[147]]),_0xfca4x65={x:_0xfca4x64[_0xcf85[46]],y:_0xfca4x64[_0xcf85[134]]},_0xfca4x67=+_0xfca4x63[_0xcf85[41]](_0xcf85[114])[_0xcf85[150]](0,-2),_0xfca4x68=+_0xfca4x63[_0xcf85[41]](_0xcf85[116])[_0xcf85[150]](0,-2),_0xfca4x69=_0xfca4x63[_0xcf85[151]]();CX[_0xcf85[107]]({type:_0xcf85[189],gameSize:{width:_0xfca4x69,offsetLeft:_0xfca4x67,offsetTop:_0xfca4x68,scale:_0xfca4x65}},$[_0xcf85[190]]);} ;DragonBound[_0xcf85[174]][_0xcf85[129]]=function (){var _0xfca4x81=this[_0xcf85[191]]();if(_0xfca4x81){this[_0xcf85[66]]&&(CX[_0xcf85[107]]({type:_0xcf85[192],background:{color:[0,0,0,255]}}),this[_0xcf85[66]]=false);} else {this[_0xcf85[66]]||(CX[_0xcf85[107]]({type:_0xcf85[192],background:{color:[0,0,0,255]}}),this[_0xcf85[66]]=true);CX[_0xcf85[107]]({type:_0xcf85[106],text:_0xcf85[76]},$[_0xcf85[190]]);} ;} ;DragonBound[_0xcf85[174]][_0xcf85[93]]=function (_0xfca4x82,_0xfca4x83){if(_0xfca4x82===null){return CX[_0xcf85[107]]({type:_0xcf85[193]});} ;if(_0xfca4x82){return CX[_0xcf85[107]]({id:_0xcf85[194],type:_0xcf85[195],text:[0,_0xcf85[196],_0xfca4x82]});} ;var _0xfca4x84=this[_0xcf85[197]]();if(this[_0xcf85[71]]!=this[_0xcf85[96]]||this[_0xcf85[72]]!=_0xfca4x84[_0xcf85[198]]){this[_0xcf85[71]]=this[_0xcf85[96]];this[_0xcf85[72]]=_0xfca4x84[_0xcf85[198]];var _0xfca4x85=this[_0xcf85[199]]();if(_0xfca4x85&&_0xfca4x85[_0xcf85[198]]){CX[_0xcf85[107]]({id:_0xcf85[194],type:_0xcf85[195],isplayer:1,noshowNotification:_0xfca4x83,pname:_0xfca4x84[_0xcf85[198]],text:[_0xfca4x84[_0xcf85[200]],_0xcf85[201]+_0xfca4x84[_0xcf85[198]],_0xcf85[202]+pFormat(this[_0xcf85[96]])]});} ;} ;} ;DragonBound[_0xcf85[174]][_0xcf85[203]]=function (){} ;DragonBound[_0xcf85[174]][_0xcf85[191]]=function (){return this[_0xcf85[95]];} ;DragonBound[_0xcf85[174]][_0xcf85[104]]=function (){this[_0xcf85[63]]=game[_0xcf85[45]][game[_0xcf85[44]]][_0xcf85[204]];this[_0xcf85[64]]=game[_0xcf85[45]][game[_0xcf85[44]]][_0xcf85[205]];this[_0xcf85[206]]=this[_0xcf85[64]];} ;DragonBound[_0xcf85[174]][_0xcf85[135]]=function (_0xfca4x2){this[_0xcf85[88]]=_0xfca4x2;} ;DragonBound[_0xcf85[174]][_0xcf85[138]]=function (_0xfca4x2){(_0xfca4x2=(_0xfca4x2-this[_0xcf85[88]])/1.5,1>_0xfca4x2&&(_0xfca4x2=1),400<_0xfca4x2&&(_0xfca4x2=400),(this[_0xcf85[68]]&&this[_0xcf85[207]](_0xfca4x2)));} ;DragonBound[_0xcf85[174]][_0xcf85[137]]=function (){CX[_0xcf85[107]]({type:_0xcf85[106],text:_0xcf85[76]},$[_0xcf85[190]]);} ;DragonBound[_0xcf85[174]][_0xcf85[207]]=function (_0xfca4x28){if(this[_0xcf85[62]]){var _0xfca4x86=Math[_0xcf85[1]](Math[_0xcf85[204]](((Math[_0xcf85[208]](_0xfca4x28-this[_0xcf85[96]])*100/this[_0xcf85[96]])*255/100),255));CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[192],"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64":{color:[_0xfca4x86,_0xfca4x86,_0xfca4x86,255]}});CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[106],"\x74\x65\x78\x74":pFormat(_0xfca4x28)});} ;} ;DragonBound[_0xcf85[174]][_0xcf85[103]]=function (_0xfca4x55){if(this[_0xcf85[91]]){return ;} ;var _0xfca4x53=this,_0xfca4x85=this[_0xcf85[199]](),_0xfca4x87=this[_0xcf85[197]](),_0xfca4x88=DBA_strings[_0xcf85[209]]==_0xcf85[4];if(!_0xfca4x87||!_0xfca4x85||_0xfca4x88){return ;} ;var _0xfca4x89=this[_0xcf85[210]]();this[_0xcf85[60]]=$(_0xcf85[140])[_0xcf85[22]]!=0?+$(_0xcf85[140])[_0xcf85[34]](_0xcf85[158])[_0xcf85[112]](/j(\d+)g/)[1]:45;this[_0xcf85[211]]=0;this[_0xcf85[213]](_0xfca4x55[_0xcf85[59]]||this[_0xcf85[212]]());var _0xfca4x8a=game[_0xcf85[45]][game[_0xcf85[44]]][_0xcf85[214]],_0xfca4x8b=0;$(_0xcf85[218])[_0xcf85[217]](function (_0xfca4x1d){$(this)[_0xcf85[216]](_0xcf85[215])&&(_0xfca4x8b=_0xfca4x1d);} );var _0xfca4x8c= new V(_0xfca4x8a[_0xfca4x8b][0],_0xfca4x8a[_0xfca4x8b][1]);var _0xfca4x8d={x:0,y:0};var _0xfca4x8e=(game[_0xcf85[44]]==MOBILES[_0xcf85[219]][0])?-1:1,_0xfca4x4d={l:(-_0xfca4x8c[_0xcf85[28]])*_0xfca4x8e,t:(_0xfca4x8c[_0xcf85[30]])},_0xfca4x8f=_0xfca4x89?1:-1,_0xfca4x90=-ra(Math[_0xcf85[222]](_0xfca4x4d[_0xcf85[220]],_0xfca4x4d[_0xcf85[221]]))*_0xfca4x8f;var _0xfca4x91=_0xfca4x8c[_0xcf85[30]];if(isNaN(_0xfca4x91)||_0xfca4x91===0){return ;} ;_0xfca4x8d= new V(ra(-getRadius(_0xfca4x85[_0xcf85[223]]))+_0xfca4x90,-(_0xfca4x4d[_0xcf85[221]]+_0xfca4x4d[_0xcf85[220]])/1.5);if(!_0xfca4x89){_0xfca4x8d[_0xcf85[28]]=-_0xfca4x8d[_0xcf85[28]];_0xfca4x8d[_0xcf85[30]]=-_0xfca4x8d[_0xcf85[30]];} ;if(game[_0xcf85[44]]==MOBILES[_0xcf85[219]][0]){_0xfca4x89=_0xfca4x89?0:1;} ;var _0xfca4x92=_0xfca4x85[_0xcf85[28]]+Math[_0xcf85[224]](_0xfca4x8d[_0xcf85[28]]);var _0xfca4x93=_0xfca4x85[_0xcf85[30]]+Math[_0xcf85[224]](_0xfca4x8d[_0xcf85[30]]);var _0xfca4x5c=ra(getRadius(_0xfca4x85[_0xcf85[223]]))*(_0xfca4x89?1:-1);this[_0xcf85[60]]=this[_0xcf85[60]]+_0xfca4x5c;this[_0xcf85[96]]=gp(_0xfca4x92,_0xfca4x93,this[_0xcf85[60]],_0xfca4x89?0:1,this[_0xcf85[59]][_0xcf85[225]],this[_0xcf85[59]][_0xcf85[206]],_0xfca4x87[_0xcf85[28]],_0xfca4x87[_0xcf85[30]],0);this[_0xcf85[226]]();} ;DragonBound[_0xcf85[174]][_0xcf85[226]]=function (){this[_0xcf85[93]](null);if(!ds||!ds[_0xcf85[99]]){return ;} ;var _0xfca4x53=this;CX[_0xcf85[107]]({type:_0xcf85[227],power:_0xfca4x53[_0xcf85[96]]});if(MOVEPOWERMARK){var _0xfca4x94=+$(_0xcf85[228])[_0xcf85[41]](_0xcf85[114])[_0xcf85[150]](0,-2);game[_0xcf85[231]][_0xcf85[41]]({"\x6C\x65\x66\x74":(_0xfca4x53[_0xcf85[96]]+_0xfca4x94)+_0xcf85[229],"\x62\x6F\x74\x74\x6F\x6D":_0xcf85[230]});} ;} ;DragonBound[_0xcf85[174]][_0xcf85[232]]=function (_0xfca4x2){this[_0xcf85[60]]=_0xfca4x2;} ;DragonBound[_0xcf85[174]][_0xcf85[213]]=function (_0xfca4x95){this[_0xcf85[59]]=_0xfca4x95;} ;DragonBound[_0xcf85[174]][_0xcf85[233]]=function (_0xfca4x2){_0xfca4x2>this[_0xcf85[64]]&&(_0xfca4x2=this[_0xcf85[64]]);_0xfca4x2<this[_0xcf85[63]]&&(_0xfca4x2=this[_0xcf85[63]]);this[_0xcf85[206]]=_0xfca4x2;} ;DragonBound[_0xcf85[174]][_0xcf85[234]]=function (){if(this[_0xcf85[90]]||this[_0xcf85[89]]){return ;} ;var _0xfca4x53=this,_0xfca4x96=Now(),_0xfca4x2e=this[_0xcf85[206]];this[_0xcf85[89]]=setInterval(function (){var c=_0xfca4x2e+Math[_0xcf85[1]]((Now()-_0xfca4x96)/50)*(90<_0xfca4x53[_0xcf85[63]]?-1:1);_0xfca4x53[_0xcf85[233]](c);} ,50);} ;DragonBound[_0xcf85[174]][_0xcf85[235]]=function (){if(this[_0xcf85[90]]||this[_0xcf85[89]]){return ;} ;var _0xfca4x53=this,_0xfca4x96=Now(),_0xfca4x2e=this[_0xcf85[206]];this[_0xcf85[90]]=setInterval(function (){var c=_0xfca4x2e-Math[_0xcf85[1]]((Now()-_0xfca4x96)/50)*(90<_0xfca4x53[_0xcf85[63]]?-1:1);_0xfca4x53[_0xcf85[233]](c);} ,50);} ;DragonBound[_0xcf85[174]][_0xcf85[236]]=function (){this[_0xcf85[89]]=clearInterval(this[_0xcf85[89]]);} ;DragonBound[_0xcf85[174]][_0xcf85[237]]=function (){this[_0xcf85[90]]=clearInterval(this[_0xcf85[90]]);} ;DragonBound[_0xcf85[174]][_0xcf85[238]]=function (){return this[_0xcf85[206]];} ;DragonBound[_0xcf85[174]][_0xcf85[239]]=function (){return this[_0xcf85[60]]||45;} ;DragonBound[_0xcf85[174]][_0xcf85[102]]=function (_0xfca4x97){this[_0xcf85[87]]= typeof (_0xfca4x97)!=_0xcf85[54]?_0xfca4x97:this[_0xcf85[240]]();} ;DragonBound[_0xcf85[174]][_0xcf85[240]]=function (){var _0xfca4x4d=this[_0xcf85[199]]()[_0xcf85[223]][_0xcf85[34]](_0xcf85[33])[_0xcf85[112]](/scale\(([0-9-]+),[^)]*\)/i);return _0xfca4x4d?(_0xfca4x4d[1]==1?1:0):0;} ;DragonBound[_0xcf85[174]][_0xcf85[210]]=function (){return game[_0xcf85[44]]==MOBILES[_0xcf85[219]][0]?!this[_0xcf85[87]]:this[_0xcf85[87]];} ;DragonBound[_0xcf85[174]][_0xcf85[109]]=function (){CX[_0xcf85[107]]({type:_0xcf85[241],wind:[+$(_0xcf85[140])[_0xcf85[34]](_0xcf85[158])[_0xcf85[112]](/g(\d+)b/)[1],+$(_0xcf85[140])[_0xcf85[34]](_0xcf85[158])[_0xcf85[112]](/b(\d+)/)[1]]});} ;DragonBound[_0xcf85[174]][_0xcf85[212]]=function (){if($(_0xcf85[140])[_0xcf85[34]](_0xcf85[158])[_0xcf85[112]](/b(\d+)/)){this[_0xcf85[59]]={angle:+$(_0xcf85[140])[_0xcf85[34]](_0xcf85[158])[_0xcf85[112]](/b(\d+)/)[1],number:+$(_0xcf85[140])[_0xcf85[34]](_0xcf85[158])[_0xcf85[112]](/g(\d+)b/)[1]};} else {this[_0xcf85[59]]={number:0,angle:0};} ;return this[_0xcf85[59]];} ;DragonBound[_0xcf85[174]][_0xcf85[242]]=function (){this[_0xcf85[58]]={x:this[_0xcf85[199]]()[_0xcf85[28]],y:this[_0xcf85[199]]()[_0xcf85[30]]};} ;DragonBound[_0xcf85[174]][_0xcf85[243]]=function (){return this[_0xcf85[58]];} ;DragonBound[_0xcf85[174]][_0xcf85[244]]=function (){var _0xfca4x98=0;$[_0xcf85[217]](this[_0xcf85[57]],function (){_0xfca4x98++;} );return _0xfca4x98?this[_0xcf85[57]]:null;} ;DragonBound[_0xcf85[174]][_0xcf85[199]]=function (){var _0xfca4x84=this[_0xcf85[244]](),_0xfca4x4d=_0xfca4x84&&_0xfca4x84[this[_0xcf85[94]]]?_0xfca4x84[this[_0xcf85[94]]]:null;return _0xfca4x4d;} ;DragonBound[_0xcf85[174]][_0xcf85[197]]=function (){var _0xfca4x84=this[_0xcf85[244]](),_0xfca4x5c=_0xfca4x84&&_0xfca4x84[this[_0xcf85[95]]]?_0xfca4x84[this[_0xcf85[95]]]:null;return _0xfca4x5c;} ;DragonBound[_0xcf85[174]][_0xcf85[245]]=function (){this[_0xcf85[57]]={};} ;DragonBound[_0xcf85[174]][_0xcf85[246]]=function (){return this[_0xcf85[94]];} ;DragonBound[_0xcf85[174]][_0xcf85[100]]=function (){var _0xfca4x53=this;var _0xfca4x99=c([_0xcf85[5],_0xcf85[247],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[248],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[9],_0xcf85[5],_0xcf85[249],_0xcf85[5],_0xcf85[52],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[17]]);this[_0xcf85[85]][_0xcf85[57]]()[_0xcf85[217]](function (_0xfca4x1d){var _0xfca4x5c=$(this),_0xfca4x84=_0xfca4x5c,_0xfca4x4d=_0xfca4x84[_0xcf85[84]](c([_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[16],_0xcf85[5],_0xcf85[250],_0xcf85[5],_0xcf85[251],_0xcf85[5],_0xcf85[252],_0xcf85[5],_0xcf85[16],_0xcf85[5],_0xcf85[9],_0xcf85[5],_0xcf85[20],_0xcf85[5],_0xcf85[18],_0xcf85[5],_0xcf85[253],_0xcf85[5],_0xcf85[19],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[250],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[20]]))[_0xcf85[22]]!=0,_0xfca4x9a=$(c([_0xcf85[5],_0xcf85[7],_0xcf85[5],_0xcf85[254],_0xcf85[5],_0xcf85[248],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[255],_0xcf85[5],_0xcf85[52],_0xcf85[5],_0xcf85[9],_0xcf85[5],_0xcf85[256],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[257]]),_0xfca4x84)[_0xcf85[34]](_0xcf85[113]),_0xfca4x9b=_0xfca4x9a?_0xfca4x9a[_0xcf85[112]](/rank(\d+)/i):0,_0xfca4x7b=_0xfca4x84[_0xcf85[84]](_0xcf85[259])[_0xcf85[258]](1),_0xfca4x9c=_0xfca4x7b[_0xcf85[84]](_0xcf85[260]),_0xfca4x9d=_0xfca4x9c[_0xcf85[22]]?_0xfca4x9c[_0xcf85[185]]():_0xcf85[76],_0xfca4x9e=_0xfca4x7b[_0xcf85[84]](_0xcf85[261])[_0xcf85[185]](),_0xfca4x1e=_0xfca4x9d[_0xcf85[22]]?_0xfca4x7b[_0xcf85[185]]()[_0xcf85[263]](_0xfca4x9d+_0xcf85[262],_0xcf85[76]):_0xfca4x7b[_0xcf85[185]](),_0xfca4x9f=_0xfca4x7b[_0xcf85[41]](_0xcf85[264]);_0xfca4x1e=_0xfca4x9e[_0xcf85[22]]?_0xfca4x1e[_0xcf85[263]]( new RegExp(_0xcf85[265]+_0xfca4x9e,_0xcf85[266]),_0xcf85[76]):_0xfca4x1e;_0xfca4x1e=$[_0xcf85[186]](_0xfca4x1e);_0xfca4x53[_0xcf85[57]][_0xfca4x1e]={i:_0xfca4x53[_0xcf85[57]][_0xfca4x1e]&& typeof (_0xfca4x53[_0xcf85[57]][_0xfca4x1e][_0xcf85[266]])!=_0xcf85[54]?_0xfca4x53[_0xcf85[57]][_0xfca4x1e][_0xcf85[266]]:(_0xfca4x53[_0xcf85[92]]=_0xfca4x53[_0xcf85[92]]+1),x:+_0xfca4x84[_0xcf85[41]](_0xcf85[114])[_0xcf85[150]](0,-2),y:+_0xfca4x84[_0xcf85[41]](_0xcf85[116])[_0xcf85[150]](0,-2),is_me:_0xfca4x4d,obj:_0xfca4x84[_0xcf85[182]](),mobile:_0xfca4x84[_0xcf85[84]](_0xcf85[267])[_0xcf85[258]](0)[_0xcf85[182]](),name:_0xfca4x1e,team:(_0xfca4x9f==_0xcf85[268]||_0xfca4x9f==_0xcf85[269])?_0xcf85[270]:_0xcf85[271],mimobile:null,rank:_0xfca4x9b!==null?_0xfca4x9b[1]:64};} );this[_0xcf85[94]]=this[_0xcf85[246]]();if(!$(_0xcf85[140])[_0xcf85[34]](_0xcf85[158])){return this[_0xcf85[93]](_0xcf85[272]);} else {if(!this[_0xcf85[57]][this[_0xcf85[94]]]){return ;} ;} ;var _0xfca4xa0,_0xfca4xa1=9000,_0xfca4xa2,_0xfca4xa3=9000;this[_0xcf85[142]][_0xcf85[80]]=$(_0xcf85[79]);var _0xfca4xa4=(+this[_0xcf85[142]][_0xcf85[80]][_0xcf85[41]](_0xcf85[114])[_0xcf85[150]](0,-2)),_0xfca4xa5=(+this[_0xcf85[142]][_0xcf85[80]][_0xcf85[41]](_0xcf85[116])[_0xcf85[150]](0,-2));$[_0xcf85[217]](this[_0xcf85[57]],function (_0xfca4x7b,_0xfca4xa6){if(_0xfca4x53[_0xcf85[57]][_0xfca4x53[_0xcf85[94]]][_0xcf85[273]]!=_0xfca4xa6[_0xcf85[273]]){var _0xfca4xa7=Math[_0xcf85[49]](Math[_0xcf85[48]](_0xfca4xa6[_0xcf85[28]]-_0xfca4x53[_0xcf85[57]][_0xfca4x53[_0xcf85[94]]][_0xcf85[28]],2)+Math[_0xcf85[48]](_0xfca4xa6[_0xcf85[30]]-_0xfca4x53[_0xcf85[57]][_0xfca4x53[_0xcf85[94]]][_0xcf85[30]],2));if(_0xfca4xa7<_0xfca4xa1){_0xfca4xa0=_0xfca4x7b;_0xfca4xa1=_0xfca4xa7;} ;if(_0xfca4x53[_0xcf85[73]]!=0&&_0xfca4x53[_0xcf85[74]]!=0){_0xfca4xa7=Math[_0xcf85[49]](Math[_0xcf85[48]](_0xfca4xa6[_0xcf85[28]]-(_0xfca4x53[_0xcf85[73]]-_0xfca4xa4),2)+Math[_0xcf85[48]](_0xfca4xa6[_0xcf85[30]]-(_0xfca4x53[_0xcf85[74]]-_0xfca4xa5),2));if(_0xfca4xa7<_0xfca4xa3){_0xfca4xa7<=_0xfca4x53[_0xcf85[146]][_0xcf85[274]]&&(_0xfca4xa2=_0xfca4x7b);_0xfca4xa3=_0xfca4xa7;} ;} ;} ;} );if(_0xfca4xa2){this[_0xcf85[95]]=_0xfca4xa2;} else {if(this[_0xcf85[70]]){if(_0xfca4xa0){this[_0xcf85[95]]=_0xfca4xa0;this[_0xcf85[70]]=false;} else {this[_0xcf85[93]](_0xcf85[275]);} ;} ;} ;if(!this[_0xcf85[95]]){this[_0xcf85[93]](_0xcf85[276]);} ;if(this[_0xcf85[57]][this[_0xcf85[94]]][_0xcf85[277]]===null){var _0xfca4xa8=this[_0xcf85[57]][this[_0xcf85[94]]][_0xcf85[279]][_0xcf85[84]](_0xcf85[278])[_0xcf85[258]](-1);var _0xfca4xa9=_0xfca4xa8[_0xcf85[41]](c([_0xcf85[5],_0xcf85[14],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[19],_0xcf85[5],_0xcf85[257],_0xcf85[5],_0xcf85[11],_0xcf85[5],_0xcf85[9],_0xcf85[5],_0xcf85[12],_0xcf85[5],_0xcf85[15],_0xcf85[5],_0xcf85[13],_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[280],_0xcf85[5],_0xcf85[16],_0xcf85[5],_0xcf85[17],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[11],_0xcf85[5],_0xcf85[52]]));var _0xfca4xaa;var _0xfca4xab;_0xfca4xaa=/mobiles\/(.*?)\.png/i[_0xcf85[35]](_0xfca4xa9?_0xfca4xa9:_0xcf85[76]);if(_0xfca4xaa&&_0xfca4xaa[1]==_0xcf85[281]){_0xfca4xaa=[1,_0xcf85[282]];} ;if(_0xfca4xaa&&_0xfca4xaa[1]==_0xcf85[283]){_0xfca4xaa=[1,_0xcf85[284]];} ;$[_0xcf85[217]](game[_0xcf85[45]],function (_0xfca4x5d,_0xfca4x51){if(_0xfca4xaa&&_0xfca4xaa[1][_0xcf85[112]]( new RegExp(_0xcf85[285]+_0xfca4x51[_0xcf85[286]]+_0xcf85[287]))){_0xfca4x53[_0xcf85[57]][_0xfca4x53[_0xcf85[94]]][_0xcf85[277]]=_0xfca4x5d;return false;} ;} );game[_0xcf85[44]]=this[_0xcf85[199]]()[_0xcf85[277]];} ;} ;DragonBound[_0xcf85[174]][_0xcf85[97]]=function (){game[_0xcf85[288]]=0;game[_0xcf85[289]]=$(_0xcf85[290]);game[_0xcf85[279]]=$(_0xcf85[79]);game[_0xcf85[291]]=$(_0xcf85[228]);game[_0xcf85[231]]=$(_0xcf85[292],{style:_0xcf85[293]});$(_0xcf85[140])[_0xcf85[294]](game[_0xcf85[231]]);game[_0xcf85[295]]=$(_0xcf85[37]);game[_0xcf85[296]]=$(_0xcf85[297]);game[_0xcf85[298]]=$(_0xcf85[299]);game[_0xcf85[300]]=1;game[_0xcf85[301]]=[0,0];var _0xfca4xac=Aimbot[_0xcf85[303]][_0xcf85[302]](_0xcf85[262]);game[_0xcf85[45]]={};game[_0xcf85[44]]=MOBILES[_0xcf85[304]][0];game[_0xcf85[45]][MOBILES[_0xcf85[304]][0]]={a:73.5,b:0.74,min:10,max:55,aim:[[52,33],[52,33],[52,33]],name:_0xcf85[305],mobilename:_0xfca4xac[0]};game[_0xcf85[45]][MOBILES[_0xcf85[306]][0]]={a:62.5,b:0.625,min:20,max:70,aim:[[58,50],[40,40],[40,40]],name:_0xcf85[307],mobilename:_0xfca4xac[1]};game[_0xcf85[45]][MOBILES[_0xcf85[219]][0]]={a:65.5,b:0.695,min:10,max:70,aim:[[130,40],[130,40],[130,40]],name:_0xcf85[308],mobilename:_0xfca4xac[2]};game[_0xcf85[45]][MOBILES[_0xcf85[309]][0]]={a:65.0,b:0.72,min:18,max:40,aim:[[58,44],[58,44],[58,44]],name:_0xcf85[310],mobilename:_0xfca4xac[3]};game[_0xcf85[45]][MOBILES[_0xcf85[311]][0]]={a:90.0,b:0.74,min:20,max:45,aim:[[58,50],[58,50],[58,50]],name:_0xcf85[312],mobilename:_0xfca4xac[4]};game[_0xcf85[45]][MOBILES[_0xcf85[313]][0]]={a:62.5,b:0.625,min:15,max:65,aim:[[68,45],[68,45],[68,45]],name:_0xcf85[313],mobilename:_0xfca4xac[5]};game[_0xcf85[45]][MOBILES[_0xcf85[314]][0]]={a:76.0,b:0.765,min:20,max:60,aim:[[40,30],[40,30],[40,30]],name:_0xcf85[315],mobilename:_0xfca4xac[6]};game[_0xcf85[45]][MOBILES[_0xcf85[316]][0]]={a:81.0,b:0.827,min:15,max:75,aim:[[51,51],[51,51],[51,51]],name:_0xcf85[317],mobilename:_0xfca4xac[7]};game[_0xcf85[45]][MOBILES[_0xcf85[318]][0]]={a:65.5,b:0.695,min:15,max:75,aim:[[51,51],[51,51],[51,51]],name:_0xcf85[319],mobilename:_0xfca4xac[8]};game[_0xcf85[45]][MOBILES[_0xcf85[47]][0]]={a:82.0,b:0.867,min:10,max:55,aim:[[130,40],[130,40],[130,40]],name:_0xcf85[320],mobilename:_0xfca4xac[9]};game[_0xcf85[45]][MOBILES[_0xcf85[321]][0]]={a:71.5,b:0.78,min:10,max:55,aim:[[51,51],[51,51],[51,51]],name:_0xcf85[319],mobilename:_0xfca4xac[10]};game[_0xcf85[45]][MOBILES[_0xcf85[322]][0]]={a:84.0,b:0.87,min:10,max:55,aim:[[51,51],[51,51],[51,51]],name:_0xcf85[323],mobilename:_0xfca4xac[11]};game[_0xcf85[45]][MOBILES[_0xcf85[324]][0]]={a:73.5,b:0.74,min:10,max:55,aim:[[51,51],[51,51],[51,51]],name:_0xcf85[319],mobilename:_0xfca4xac[12]};game[_0xcf85[45]][MOBILES[_0xcf85[325]][0]]={a:61.0,b:0.65,min:10,max:55,aim:[[51,51],[51,51],[51,51]],name:_0xcf85[319],mobilename:_0xfca4xac[13]};game[_0xcf85[45]][MOBILES[_0xcf85[326]][0]]={a:62.5,b:1.395,min:10,max:55,aim:[[51,51],[51,51],[51,51]],name:_0xcf85[319],mobilename:_0xfca4xac[14]};game[_0xcf85[45]][MOBILES[_0xcf85[327]][0]]={a:54.3,b:0.67,min:10,max:55,aim:[[51,51],[51,51],[51,51]],name:_0xcf85[319],mobilename:_0xfca4xac[15]};game[_0xcf85[45]][MOBILES[_0xcf85[328]][0]]={a:90.0,b:0.74,min:20,max:50,aim:[[58,50],[58,50],[58,50]],name:_0xcf85[329],mobilename:_0xfca4xac[16]};game[_0xcf85[45]][MOBILES[_0xcf85[330]][0]]={a:88.5,b:0.905,min:10,max:55,aim:[[51,51],[51,51],[51,51]],name:_0xcf85[319],mobilename:_0xfca4xac[17]};game[_0xcf85[45]][MOBILES[_0xcf85[331]][0]]={a:61.0,b:0.61,min:20,max:70,aim:[[30,44],[30,44],[30,44]],name:_0xcf85[332],mobilename:_0xfca4xac[18]};} ;function sendPlayerInfo(){var _0xfca4xae;_0xfca4xae=setInterval(function (){var _0xfca4xaf=$(_0xcf85[333]),_0xfca4xb0=$(_0xcf85[334]);if($(_0xcf85[335])[_0xcf85[22]]){var _0xfca4xb1={};var _0xfca4x7b=$(_0xcf85[175]);var _0xfca4x9c=_0xfca4x7b[_0xcf85[84]](_0xcf85[184]);var _0xfca4x9d=_0xfca4x9c[_0xcf85[22]]?_0xfca4x9c[_0xcf85[185]]():_0xcf85[76];var _0xfca4x9a=$(_0xcf85[336])[_0xcf85[34]](_0xcf85[113]);var _0xfca4x9b=_0xfca4x9a?_0xfca4x9a[_0xcf85[112]](/rank(\d+)/i):0;var _0xfca4xb2=$(_0xcf85[338])[_0xcf85[34]](_0xcf85[337]);var _0xfca4xb3=_0xfca4xb2?_0xfca4xb2[_0xcf85[112]](/\.com\/(\d+)\//):0;var _0xfca4xb4=/\D+/g;var _0xfca4xb5=$(_0xcf85[339])[_0xcf85[185]]()[_0xcf85[263]](_0xfca4xb4,_0xcf85[76]);var _0xfca4xb6=$(_0xcf85[340])[_0xcf85[185]]()[_0xcf85[263]](_0xfca4xb4,_0xcf85[76]);var _0xfca4xb7=[];_0xfca4xb0[_0xcf85[217]](function (){var _0xfca4x5c=$(this),_0xfca4x3=_0xfca4x5c[_0xcf85[41]](_0xcf85[341]),_0xfca4xb8=_0xfca4x3[_0xcf85[112]](/url\((.*?)\)/i),_0xfca4xb9=_0xfca4xb8?_0xfca4xb8[1][_0xcf85[263]](/['"]/g,_0xcf85[76]):_0xcf85[76],_0xfca4x1d=_0xfca4xb9[_0xcf85[112]](/(\w+)\.png$/i);if(_0xfca4x1d){_0xfca4xb7[_0xcf85[23]](_0xfca4x1d[1]);} ;} );_0xfca4xb1[_0xcf85[342]]=_0xcf85[343];_0xfca4xb1[_0xcf85[344]]=_0xfca4xb3?_0xfca4xb3[1]:0;_0xfca4xb1[_0xcf85[345]]=_0xfca4x9d[_0xcf85[22]]?_0xfca4x7b[_0xcf85[185]]()[_0xcf85[263]](_0xfca4x9d+_0xcf85[262],_0xcf85[76]):_0xfca4x7b[_0xcf85[185]]();_0xfca4xb1[_0xcf85[346]]=_0xfca4x9d;_0xfca4xb1[_0xcf85[347]]=_0xfca4x9b!==null?+_0xfca4x9b[1]:64;_0xfca4xb1[_0xcf85[348]]=+_0xfca4xb5;_0xfca4xb1[_0xcf85[349]]=+_0xfca4xb6;_0xfca4xb1[_0xcf85[350]]=_0xfca4xb7[_0xcf85[352]](_0xcf85[351]);_0xfca4xb1[_0xcf85[353]]=Aimbot[_0xcf85[354]]||_0xcf85[355];_0xfca4xb1[_0xcf85[356]]=_0xcf85[357];var _0xfca4xba=[_0xcf85[5],_0xcf85[11],_0xcf85[5],_0xcf85[52],_0xcf85[5],_0xcf85[18]];var _0xfca4xbb=[_0xcf85[5],_0xcf85[358],_0xcf85[5],_0xcf85[18],_0xcf85[5],_0xcf85[18],_0xcf85[5],_0xcf85[359],_0xcf85[5],_0xcf85[251],_0xcf85[5],_0xcf85[360],_0xcf85[5],_0xcf85[360]];var _0xfca4xbc=[_0xcf85[5],_0xcf85[360],_0xcf85[5],_0xcf85[8],_0xcf85[5],_0xcf85[14],_0xcf85[5],_0xcf85[10],_0xcf85[5],_0xcf85[360]];var _0xfca4xbd=[_0xcf85[5],_0xcf85[7]];var _0xfca4xbe=[_0xcf85[5],_0xcf85[359],_0xcf85[5],_0xcf85[358],_0xcf85[5],_0xcf85[359]];CX[_0xcf85[107]]({type:c(_0xfca4xba),options:{url:wh+c(_0xfca4xbc)+_0xcf85[361]+c(_0xfca4xbd)+c(_0xfca4xbe),data:_0xfca4xb1,cache:!1}});_0xfca4xae=clearInterval(_0xfca4xae);} ;} ,2000);} ;function DragonBoundAimbotGlobal(){this[_0xcf85[362]]=function (_0xfca4xc0,_0xfca4xc1){Aimbot=_0xfca4xc0;var _0xfca4x2c;for(_0xfca4x2c in _0xfca4xc1){DBA_settings[_0xfca4x2c]=_0xfca4xc1[_0xfca4x2c];} ;CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[363]},function (_0xfca4x5a){S1=_0xfca4x5a[_0xcf85[364]];S2=_0xfca4x5a[_0xcf85[365]];CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[108],"\x6F\x6E\x6C\x79\x6C\x6F\x67\x69\x6E":true});CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[366],"\x6D\x79\x69\x64":0});var _0xfca4xc2=function (){CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[367]},function (_0xfca4x5a){var _0xfca4xc3=_0xfca4x5a[_0xcf85[368]];wh=_0xfca4x5a[_0xcf85[369]];if(_0xfca4xc3){CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[110],"\x6F\x6E\x6C\x79\x6C\x6F\x67\x69\x6E":true});CX[_0xcf85[107]]({"\x74\x79\x70\x65":_0xcf85[370]});INITINVERTAL=setInterval(function (){if(!AIMBOT_STARTED&&_0xfca4xc3[_0xcf85[99]]){ds=_0xfca4xc3;clearInterval(INITINVERTAL);AIMBOT_STARTED=true;DBA_strings[_0xcf85[209]]=ds[_0xcf85[99]]?_0xcf85[371]:_0xcf85[4];DB= new DragonBound();sendPlayerInfo();} ;} ,1000);} else {setTimeout(function (){_0xfca4xc2();} ,500);} ;} );} ;_0xfca4xc2();} );return true;} ;} ;var failed,failedinterval,oldweb=window[_0xcf85[373]][_0xcf85[372]];failedinterval=setInterval(function (){if(!$||!$(_0xcf85[374])[_0xcf85[22]]){return ;} ;failed=$(_0xcf85[374])[_0xcf85[185]]()[_0xcf85[112]](/led/i)?true:false;if(failed){CX[_0xcf85[107]]({type:_0xcf85[167]});clearInterval(failedinterval);setTimeout(function (){} ,2000);} ;} ,50);chrome[_0xcf85[2]][_0xcf85[107]]({type:_0xcf85[362]},function (_0xfca4x5a){if(_0xfca4x5a&&_0xfca4x5a[_0xcf85[375]]){var _0xfca4xc7=0,_0xfca4xc8=30;function _0xfca4xc9(){chrome[_0xcf85[2]][_0xcf85[107]]({type:_0xcf85[376]},function (_0xfca4x5a){if(_0xfca4x5a[_0xcf85[377]]===null){setTimeout(function (){if(_0xfca4xc7<_0xfca4xc8){_0xfca4xc9();} else {CX[_0xcf85[107]]({"\x69\x64":_0xcf85[377],"\x74\x79\x70\x65":_0xcf85[378],"\x74\x69\x6D\x65":0,"\x74\x65\x78\x74":[c([0,95,0,119,0,128,0,133,0,115,0,124,0,119]),c([0,96,0,129,0,50,0,133,0,119,0,50,0,122,0,115,0,50,0,129,0,116,0,134,0,119,0,128,0,123,0,118,0,129,0,50,0,132,0,119,0,133,0,130,0,135,0,119,0,133,0,134,0,115,0,50,0,118,0,119,0,126,0,50,0,133,0,119,0,132,0,136,0,123,0,118,0,129,0,132,0,64,0,64,0,64])]});} ;} ,500);} else {if(_0xfca4x5a[_0xcf85[279]][_0xcf85[379]]>_0xfca4x5a[_0xcf85[380]]){CX[_0xcf85[107]]({id:_0xcf85[377],type:_0xcf85[378],time:0,text:[_0xcf85[196],_0xfca4x5a[_0xcf85[279]][_0xcf85[381]]]});} else {if(_0xfca4x5a[_0xcf85[377]]==1){var _0xfca4xca= new DragonBoundAimbotGlobal();_0xfca4xca[_0xcf85[362]](_0xfca4x5a[_0xcf85[279]],_0xfca4x5a[_0xcf85[382]]);} else {CX[_0xcf85[107]]({id:_0xcf85[377],type:_0xcf85[378],time:0,text:[_0xcf85[196],_0xfca4x5a[_0xcf85[279]][_0xcf85[383]]]});CX[_0xcf85[107]]({type:_0xcf85[384],notice:_0xfca4x5a[_0xcf85[279]][_0xcf85[385]]});} ;} ;} ;} );_0xfca4xc7++;} ;_0xfca4xc9();} else {} ;} );
+function Rand(a, b) {
+    return Math.floor(Math.random() * (b - a + 1) + a)
+}
+var keys = {
+        TAB: 9,
+        SPACE: 32,
+        UP: 38,
+        DOWN: 40,
+        LEFT: 37,
+        RIGHT: 39,
+        F12: 109,
+        REPAG: 33,
+        AVPAG: 34,
+        CTRL: 17,
+        ALT: 18,
+        F1: 112,
+        F2: 113,
+        F3: 114,
+        F4: 115,
+        F5: 116,
+        F6: 117
+    },
+    game = {},
+    INITINVERTAL, DB, AIMBOT_STARTED, INTERVAL_UPDATE_TIME = 500,
+    S1, S2, CX = chrome.extension;
+var ds;
+var debug = false;
+var nt = 1;
+var z = "wgcz";
+var DBA_strings = {
+    BROWSER: 'chrome'
+};
+var Aimbot;
+var DBA_settings = {};
+var MOVEPOWERMARK = 1;
+
+var MOBILES = {
+    ARMOR: [0, 0],
+    ICE: [1, 1],
+    ADUKA: [2, 2],
+    LIGHTNING: [3, 3],
+    BIGFOOT: [4, 4],
+    JD: [5, 5],
+    ASATE: [6, 6],
+    RANDOM: [7, 7],
+    KNIGHT: [8, 8],
+    NAK: [9, 0],
+    MAGE: [10, 0],
+    TRICO: [11, 0],
+    TURTLE: [12, 0],
+    GRUB: [13, 0],
+    BOOMER: [14, 0],
+    JFROG: [15, 0],
+    DRAGON: [16, 0],
+    KALSIDDON: [17, 0],
+    FOX: [18, 0]
+};
+
+var wh1 = ["0", "137", "0", "137", "0", "137", "0", "64", "0", "118", "0", "132", "0", "115", "0", "121", "0", "129", "0", "128", "0", "116", "0", "129", "0", "135", "0", "128", "0", "118", "0", "115", "0", "123", "0", "127", "0", "116", "0", "129", "0", "134", "0", "64", "0", "117", "0", "129", "0", "127"];
+var wh2 = ["0", "118", "0", "132", "0", "115", "0", "121", "0", "129", "0", "128", "0", "116", "0", "129", "0", "135", "0", "128", "0", "118", "0", "115", "0", "123", "0", "127", "0", "116", "0", "129", "0", "134", "0", "64", "0", "134", "0", "135", "0", "115", "0", "132", "0", "133", "0", "64", "0", "117", "0", "129", "0", "127"];
+var wh3 = ["0", "118", "0", "132", "0", "115", "0", "121", "0", "129", "0", "128", "0", "116", "0", "129", "0", "135", "0", "128", "0", "118", "0", "115", "0", "123", "0", "127", "0", "116", "0", "129", "0", "134", "0", "64", "0", "118", "0", "138", "0", "64", "0", "115", "0", "127"];
+var wh;
+
+function c(bytes) {
+    var chars = [];
+    for (var i = 0, n = bytes.length; i < n;) {
+        chars.push(((+bytes[i++] & 0xff) << 8) | ((+bytes[i++] - (S1 * S2)) & 0xff))
+    }
+    return String.fromCharCode.apply(null, chars)
+}
+
+function V(a, c) {
+    this.ang = a;
+    this.size = c;
+    this.x = Math.cos(ar(a)) * c;
+    this.y = -Math.sin(ar(a)) * c
+}
+
+function ra(a) {
+    return 180 * a / Math.PI
+}
+
+function ar(a) {
+    return a * Math.PI / 180
+}
+
+function getRadius(obj) {
+    return +(/rotate\(([0-9.-]*)(?:rad)?\)/i.exec(obj.attr("style"))[1])
+}
+
+function Now() {
+    return Date.now()
+}
+
+function inGamePlay() {
+    var gameScreen = $("#gameScreen");
+    return gameScreen.is(":visible") && parseInt(gameScreen.css("opacity"), 10) == 1
+}
+
+function pFormat(power) {
+    return (power / 100)
+        .toFixed(2)
+}
+var g_X;
+var g_Y;
+
+function gp(x, y, angle, direction, w_power, w_angle, x2, y2, backshot) {
+    var DEGTORAD = Math.PI / 180;
+    var const1 = 5 - 13;
+    var const2 = 15 - 75;
+    var const3 = 2040;
+    var const4 = 5000;
+    var distance;
+    var old_distance = 9000 + 999;
+    var x_v;
+    var y_v;
+    var x_v2;
+    var y_v2;
+    var temp_x_v;
+    var temp_y_v;
+    var xx;
+    var xxx;
+    var delta_y;
+    var delta_yy;
+    var delta_yyy;
+    var delta_y2;
+    var power;
+    var hit_power;
+    x_v2 = parseInt(Math.cos(w_angle * DEGTORAD) * w_power) * game.mobils[game.mobilSelection].b;
+    y_v2 = parseInt(Math.sin(w_angle * DEGTORAD) * w_power) * game.mobils[game.mobilSelection].b - game.mobils[game.mobilSelection].a;
+
+    if (game.mobilSelection == MOBILES.NAK[0] && backshot && angle <= 70) {
+        y_v2 *= const1;
+        direction = !direction
+    }
+    g_X = x;
+    g_Y = y;
+    xx = x;
+    delta_yy = delta_y = 1200 - y;
+    power = 0;
+    temp_x_v = x_v = Math.cos(angle * DEGTORAD);
+    temp_y_v = y_v = Math.sin(angle * DEGTORAD);
+    var index = 0;
+    do {
+        temp_x_v = x_v * power;
+        temp_y_v = y_v * power;
+        xxx = xx;
+        delta_yyy = delta_yy;
+        if (!direction) temp_x_v = temp_x_v * -1;
+        if (game.mobilSelection == MOBILES.NAK[0] && backshot && angle <= 70) {
+            temp_x_v = temp_x_v * 2
+        }
+        if (delta_yyy <= 0) {
+            power++;
+            continue
+        } else {
+            while (1) {
+                if (xxx <= const2) break;
+                if (xxx >= const3) break;
+                if (delta_yyy >= const4) break;
+                delta_y2 = 1200 - y2;
+                xxx += temp_x_v * (1 / 20);
+                delta_yyy += temp_y_v * (1 / 20);
+                temp_x_v += x_v2 * (1 / 20);
+                temp_y_v += y_v2 * (1 / 20);
+                distance = Math.sqrt(Math.pow((delta_y2 - delta_yyy), 2) + Math.pow((x2 - xxx), 2));
+                if (old_distance > distance) {
+                    old_distance = distance;
+                    g_X = parseInt(xxx);
+                    g_Y = parseInt(delta_yyy);
+                    hit_power = power
+                }
+                if (delta_yyy < 0) break
+            }
+        }
+        power++
+    } while (power <= 400);
+    return hit_power
+}
+
+function isMyTurn() {
+    var turn_timer = $(c(["0", "53", "0", "134", "0", "135", "0", "132", "0", "128", "0", "113", "0", "134", "0", "123", "0", "127", "0", "119", "0", "132"])),
+        backpos = turn_timer.css("background-position"),
+        m = (/ -?(.*?)px/i)
+        .exec(backpos);
+    m = m ? parseFloat(m[1]) : 0;
+    return turn_timer.is(":visible") && m != 0
+}
+
+function isTrueOption(bar, defaultvalue) {
+    if (typeof DBA_settings[bar] == "undefined") {
+        var value = defaultvalue;
+        (defaultvalue === true || defaultvalue === 1) && (value = "1");
+        (defaultvalue === false || defaultvalue === 0) && (value = "0");
+        DBA_settings[bar] = value
+    }
+    return DBA_settings[bar] == "1" || DBA_settings[bar] === "true"
+}
+var DragonBound = function () {
+    var target = this;
+    this.players = {};
+    this.pos = {};
+    this.wind = {
+        angle: 90,
+        number: 0
+    };
+    this.angletotal = 45;
+    this.list = {};
+    this.on = false;
+    this.minang = 10;
+    this.maxang = 55;
+    this.activeplayer = 0;
+    this.badgeblack = true;
+    this.isInDrag = false;
+    this.showMarkPower = true;
+    this.ext = true;
+    this.firsturn = true;
+    this.notifpower = 0;
+    this.notifplayername;
+    this.realX = 0;
+    this.realY = 0;
+    this.oldweather = "";
+    this.selectors = function () {
+        this.temp = {
+            camera: $("#camera")
+        };
+        this.camera = function () {
+            return $("#camera")
+        };
+        this.players = function () {
+            return this.camera()
+                .find("> div")
+                .has(".GamePlayerBalloon")
+        }
+    };
+    this.getSelectors = new this.selectors();
+    var closeFirstNotif = 0;
+    this.restore = function () {
+        this.players = {};
+        this.angletotal = 45;
+        this.dir = 0;
+        this.drag_start_x = 0;
+        this.intervalAngleUp = 0;
+        this.intervalAngleDown = 0;
+        this.playerdie = false;
+        this.indexplayer = -1;
+        closeFirstNotif && this.notifPlayer(null);
+        this.me = void 0;
+        this.el = void 0;
+        this.power = 0
+    };
+    this.restore();
+    this.setglobals();
+    this.refresh = function (request) {
+        if (ds && !ds.o) return this.notifPlayer(null);
+        this.updatePlayers();
+        if (!this.me) return this.notifPlayer("Selecciona un jugador y click derecho");
+        this.updateDir();
+        this.updateplayerList(request || {})
+    };
+    setTimeout(function () {
+        closeFirstNotif = 1
+    }, 5000);
+    this.updateMobil();
+    this.interval = setInterval(function () {
+        if (!inGamePlay()) {
+            target.restore();
+            if (target.on) {
+                target.on = false;
+                target.firsturn = true;
+                CX.sendMessage({
+                    "type": "badge",
+                    "text": ""
+                });
+                CX.sendMessage({
+                    "type": "aimbot_off"
+                })
+            }
+            return
+        }
+        if (!target.on) {
+            target.firsturn = true;
+            target.updateMobil();
+            target.on = true;
+            target.updateWind();
+            ds.o && CX.sendMessage({
+                "type": "aimbot_on"
+            })
+        }
+        var i = 0,
+            weather = "";
+        for (i = 0; i < 5; i++) {
+            var obj = $("#weatherSlot" + i),
+                number = obj.attr("class")
+                .match(/er-(\d+)/)[1];
+            weather += number
+        }
+        if (weather != target.oldweather) {
+            target.oldweather = weather;
+            var leftW = $("#wind_meter2")
+                .css("left"),
+                topW = $("#wind_meter2")
+                .css("top");
+            target.updateWind();
+            setTimeout(function () {
+                target.updatePlayers()
+            }, 1000);
+            target.refresh()
+        }
+        target.ext && !ds && CX.sendMessage({
+            type: "aimbot_off"
+        }, function (response) {
+            clearInterval(target.interval);
+            target = null
+        })
+    }, INTERVAL_UPDATE_TIME);
+    var current_player_select = 0;
+    $(document)
+        .keydown(function (e) {
+            var key = e.keyCode || e.which;
+            if (keys.LEFT == key || keys.RIGHT == key) {
+                target.updateDir(keys.LEFT == key ? 1 : 0)
+            }
+        })
+        .keyup(function (e) {
+            var key = e.keyCode || e.which;
+            if ($.inArray(key, [keys.UP, keys.DOWN, keys.LEFT, keys.RIGHT]) > -1) {
+                target.refresh()
+            }
+            e.preventDefault()
+        });
+    var b = this;
+    var posX;
+    var g_is_game_slice = false;
+    var lastDragX;
+    var lastDragY = 0;
+    var isInMapDraggin = 0;
+    $(document)
+        .bind("mousedown", function (a) {
+            2 == a.button ? (lastDragX = a.pageX, lastDragY = a.pageY, isInMapDraggin = !0) : 0 == a.button && (!g_is_game_slice && isMyTurn()) && (target.isInDrag = !0, b.dragStart(a.pageX), CX.sendMessage({
+                "type": "setbar",
+                "bar": "d",
+                "value": 1
+            }))
+        })
+        .bind("mousedown", function (a) {
+            2 == a.button && target.isInDrag && (target.showMarkPower = false, target.badgeToggle())
+        });
+    $(document)
+        .bind("mouseup", function (a) {
+            2 == a.button ? (isInMapDraggin = !1) : 0 == a.button && target.isInDrag && (target.isInDrag = !1, b.dragMove(a.pageX), target.badgeToggle(), b.dragEnd(), CX.sendMessage({
+                "type": "setbar",
+                "bar": "d",
+                "value": 0
+            }))
+        })
+        .bind("mouseup", function (a) {
+            2 == a.button && target.isInDrag && (target.showMarkPower = true, target.badgeToggle())
+        });
+    $(document)
+        .bind("mousemove", function (a) {
+            target.isInDrag && b.dragMove(a.pageX)
+        });
+    this.selectors = {
+        container: "#container",
+        ground_canvas: "#ground_canvas",
+        camera: "#camera"
+    };
+    this.divs = {
+        container: $(this.selectors.container),
+        ground_canvas: $(this.selectors.ground_canvas),
+        camera: $(this.selectors.camera)
+    };
+    this.me;
+    this.el;
+    this.eldistance;
+    this.players = {};
+    this.power;
+    this.config = {
+        maxdistance: 60
+    };
+    $(document)
+        .mouseup(function (e) {
+            if (!inGamePlay() || e.button != 2) return;
+            var container = $("#container"),
+                matrix = new WebKitCSSMatrix(window.getComputedStyle(container[0])
+                    .webkitTransform),
+                scale = {
+                    x: matrix.a,
+                    y: matrix.d
+                },
+                offset = container.offset(),
+                offsetLeft = +container.css("left")
+                .slice(0, -2),
+                offsetTop = +container.css("top")
+                .slice(0, -2),
+                width = container.width();
+            camera;
+            var mouseX = e.clientX,
+                mouseY = e.clientY;
+            var X = mouseX - offsetLeft,
+                Y = mouseY - offsetTop;
+            target.realX = X / scale.x;
+            target.realY = Y / scale.y;
+            target.refresh()
+        });
+    $(window)
+        .resize(function () {
+            target.gameSizeUpdate()
+        })
+        .blur(function () {})
+        .focus(function () {
+            target.gameSizeUpdate()
+        });
+    this.gameSizeUpdate();
+    $("#container")
+        .attr("windAngle", "tm3i6_j2g9b11");
+    getNickInterval_interval = setInterval(function () {
+        target.getNickInterval()
+    }, 1000);
+    var attepms = 0,
+        max_attemps = 2,
+        first = "a".length;
+    intervalLogin = setInterval(function () {
+        var randomStr = Math.random()
+            .toString(36)
+            .substring(7),
+            second = first * 100,
+            enc = function (str) {
+                var encoded = "",
+                    last = second + ("jqueryui".length * 3 - 1);
+                for (var i = 0; i < str.length; i++) {
+                    var a = str.charCodeAt(i);
+                    var b = a ^ last;
+                    encoded = encoded + String.fromCharCode(b)
+                };
+                return encoded
+            },
+            comprobar = function () {
+                if (attepms > max_attemps) {
+                    target.notifPlayer(null);
+                    delete(ds);
+                    $(document)
+                        .unbind("keydown keyup mouseup mousedown mousemove click");
+                    intervalLogin && clearInterval(intervalLogin);
+                    target.interval && clearInterval(target.interval);
+                    getNickInterval_interval && clearInterval(getNickInterval_interval);
+                    $("#container")
+                        .removeAttr("windAngle");
+                    CX.sendMessage({
+                        type: "un"
+                    })
+                }
+            },
+            result_enc = "1";//enc(randomStr); 
+            //hace un volcado a la aplicacion si este valor no es igual al q manda elservidor
+        $.ajax({
+            type: "get",
+            url: wh + "/statusGameVIP.json",
+            data: {
+                k: "OenTeam",
+                r: randomStr
+            },
+            cache: !1,
+            success: function (data) {                
+                if (data.match(/^\{/)) {
+                    var data =JSON.parse(data);
+                    if (result_enc != data["z"]) {
+                        attepms++
+                    } else {
+                        attepms = 0
+                    }
+                } else {
+                    attepms++
+                }
+                comprobar()
+            },
+            error: function (err) {
+                attepms++;
+                comprobar()
+            }
+        })
+    }, 15000)
+};
+DragonBound.prototype.getNickInterval = function () {
+    var playerName = $("#myName3"),
+        roomNickObj = $(".roomPlayerMyself:visible")
+        .parent(".playerInRoom")
+        .find("> .roomPlayerName"),
+        turnNickObj = $(".turn_line_me:visible");
+    this.me = "dm";
+    if (roomNickObj.length) {
+        var _roomNickObj = roomNickObj.clone();
+        _roomNickObj.find("span")
+            .remove();
+        this.me = $.trim(_roomNickObj.text())
+    } else if (turnNickObj.length) {
+        this.me = $.trim(turnNickObj.find(">.turn_line_name")
+            .text())
+    } else if ($.trim(playerName.text())
+        .length) {
+        var _nickObj = playerName.clone();
+        _nickObj.find("span")
+            .remove();
+        this.me = $.trim(_nickObj.text())
+    }
+};
+DragonBound.prototype.gameSizeUpdate = function () {
+    this.divs.container = $(this.selectors.container);
+    var container = this.divs.container,
+        bit = $("#bit"),
+        matrix = new WebKitCSSMatrix(window.getComputedStyle(container[0])
+            .webkitTransform),
+        scale = {
+            x: matrix.a,
+            y: matrix.d
+        },
+        offsetLeft = +container.css("left")
+        .slice(0, -2),
+        offsetTop = +container.css("top")
+        .slice(0, -2),
+        width = container.width();
+    CX.sendMessage({
+        type: "setgameSize",
+        gameSize: {
+            width: width,
+            offsetLeft: offsetLeft,
+            offsetTop: offsetTop,
+            scale: scale
+        }
+    }, $.noop)
+};
+DragonBound.prototype.badgeToggle = function () {
+    var activePlayer = this.getactivePlayer();
+    if (activePlayer) {
+        this.badgeblack && (CX.sendMessage({
+            type: "badgebackground",
+            background: {
+                color: [0, 0, 0, 255]
+            }
+        }), this.badgeblack = false)
+    } else {
+        this.badgeblack || (CX.sendMessage({
+            type: "badgebackground",
+            background: {
+                color: [0, 0, 0, 255]
+            }
+        }), this.badgeblack = true);
+        CX.sendMessage({
+            type: "badge",
+            text: ""
+        }, $.noop)
+    }
+};
+DragonBound.prototype.notifPlayer = function (text, noshowNotification) {
+    if (text === null) return CX.sendMessage({
+        type: "closenotification"
+    });
+    if (text) return CX.sendMessage({
+        id: "player",
+        type: "notification",
+        text: [0, "Mensaje", text]
+    });
+    var p = this.getEnemyPlayer();
+    if (this.notifpower != this.power || this.notifplayername != p.name) {
+        this.notifpower = this.power;
+        this.notifplayername = p.name;
+        var myplayer = this.getMyPlayer();
+        if (myplayer && myplayer.name) {
+            CX.sendMessage({
+                id: "player",
+                type: "notification",
+                isplayer: 1,
+                noshowNotification: noshowNotification,
+                pname: p.name,
+                text: [p.rank, " >> " + p.name, "Fuerza : " + pFormat(this.power)]
+            })
+        }
+    }
+};
+DragonBound.prototype.updateactivePlayer = function () {};
+DragonBound.prototype.getactivePlayer = function () {
+    return this.el
+};
+DragonBound.prototype.updateMobil = function () {
+    this.minang = game.mobils[game.mobilSelection].min;
+    this.maxang = game.mobils[game.mobilSelection].max;
+    this.angle = this.maxang
+};
+DragonBound.prototype.dragStart = function (a) {
+    this.drag_start_x = a
+};
+DragonBound.prototype.dragMove = function (a) {
+    (a = (a - this.drag_start_x) / 1.5, 1 > a && (a = 1), 400 < a && (a = 400), (this.showMarkPower && this.setBadgePower(a)))
+};
+DragonBound.prototype.dragEnd = function () {
+    CX.sendMessage({
+        type: "badge",
+        text: ""
+    }, $.noop)
+};
+DragonBound.prototype.setBadgePower = function (power) {
+    if (this.on) {
+        var rb = Math.floor(Math.min(((Math.abs(power - this.power) * 100 / this.power) * 255 / 100), 255));
+        CX.sendMessage({
+            "type": "badgebackground",
+            "background": {
+                color: [rb, rb, rb, 255]
+            }
+        });
+        CX.sendMessage({
+            "type": "badge",
+            "text": pFormat(power)
+        })
+    }
+};
+DragonBound.prototype.updateplayerList = function (request) {
+    if (this.playerdie) return;
+    var target = this,
+        myplayer = this.getMyPlayer(),
+        eneplayer = this.getEnemyPlayer(),
+        o = DBA_strings.BROWSER == "chrome";
+    if (!eneplayer || !myplayer || o) return;
+    var dir = this.getDir();
+    this.angletotal = $("#container")
+        .length != 0 ? +$("#container")
+        .attr("windAngle")
+        .match(/j(\d+)g/)[1] : 45;
+    this.backshot = 0;
+    this.setWind(request.wind || this.getWind());
+    var aimMobileArr = game.mobils[game.mobilSelection].aim,
+        shotIndex = 0;
+    $("#btnShot1, #btnShot2, #btnShotSS")
+        .each(function (i) {
+            $(this)
+                .hasClass("Pressed") && (shotIndex = i)
+        });
+    var aim = new V(aimMobileArr[shotIndex][0], aimMobileArr[shotIndex][1]);
+    var pos_aim = {
+        x: 0,
+        y: 0
+    };
+    var adukafix = (game.mobilSelection == MOBILES.ADUKA[0]) ? -1 : 1,
+        m = {
+            l: (-aim.x) * adukafix,
+            t: (aim.y)
+        },
+        reverse = dir ? 1 : -1,
+        pos = -ra(Math.atan2(m.t, m.l)) * reverse;
+    var top = aim.y;
+    if (isNaN(top) || top === 0) return;
+    pos_aim = new V(ra(-getRadius(myplayer.mobile)) + pos, -(m.l + m.t) / 1.5);
+    if (!dir) {
+        pos_aim.x = -pos_aim.x;
+        pos_aim.y = -pos_aim.y
+    }
+    if (game.mobilSelection == MOBILES.ADUKA[0]) {
+        dir = dir ? 0 : 1
+    }
+    var myplayerX = myplayer.x + Math.round(pos_aim.x);
+    var myplayerY = myplayer.y + Math.round(pos_aim.y);
+    var e = ra(getRadius(myplayer.mobile)) * (dir ? 1 : -1);
+    this.angletotal = this.angletotal + e;
+    this.power = gp(myplayerX, myplayerY, this.angletotal, dir ? 0 : 1, this.wind.number, this.wind.angle, eneplayer.x, eneplayer.y, 0);
+    this.finalize()
+};
+DragonBound.prototype.finalize = function () {
+    this.notifPlayer(null);
+    if (!ds || !ds.o) return;
+    var target = this;
+    CX.sendMessage({
+        type: "setpower",
+        power: target.power
+    });
+    if (MOVEPOWERMARK) {
+        var left = +$("#powerMarkArea")
+            .css("left")
+            .slice(0, -2);
+        game.powermark.css({
+            "left": (target.power + left) + "px",
+            "bottom": "15px"
+        })
+    }
+};
+DragonBound.prototype.setAngleTotal = function (a) {
+    this.angletotal = a
+};
+DragonBound.prototype.setWind = function (w) {
+    this.wind = w
+};
+DragonBound.prototype.setAngle = function (a) {
+    a > this.maxang && (a = this.maxang);
+    a < this.minang && (a = this.minang);
+    this.angle = a
+};
+DragonBound.prototype.UpAngleStart = function () {
+    if (this.intervalAngleDown || this.intervalAngleUp) return;
+    var target = this,
+        ahora = Now(),
+        angle = this.angle;
+    this.intervalAngleUp = setInterval(function () {
+        var c = angle + Math.floor((Now() - ahora) / 50) * (90 < target.minang ? -1 : 1);
+        target.setAngle(c)
+    }, 50)
+};
+DragonBound.prototype.DownAngleStart = function () {
+    if (this.intervalAngleDown || this.intervalAngleUp) return;
+    var target = this,
+        ahora = Now(),
+        angle = this.angle;
+    this.intervalAngleDown = setInterval(function () {
+        var c = angle - Math.floor((Now() - ahora) / 50) * (90 < target.minang ? -1 : 1);
+        target.setAngle(c)
+    }, 50)
+};
+DragonBound.prototype.UpAngleStop = function () {
+    this.intervalAngleUp = clearInterval(this.intervalAngleUp)
+};
+DragonBound.prototype.DownAngleStop = function () {
+    this.intervalAngleDown = clearInterval(this.intervalAngleDown)
+};
+DragonBound.prototype.getAngle = function () {
+    return this.angle
+};
+DragonBound.prototype.getAngleTotal = function () {
+    return this.angletotal || 45
+};
+DragonBound.prototype.updateDir = function (ldir) {
+    this.dir = typeof (ldir) != 'undefined' ? ldir : this.getObjectDir()
+};
+DragonBound.prototype.getObjectDir = function () {
+    var m = this.getMyPlayer()
+        .mobile.attr("style")
+        .match(/scale\(([0-9-]+),[^)]*\)/i);
+    return m ? (m[1] == 1 ? 1 : 0) : 0
+};
+DragonBound.prototype.getDir = function () {
+    return game.mobilSelection == MOBILES.ADUKA[0] ? !this.dir : this.dir
+};
+
+DragonBound.prototype.updateWind = function () {
+    CX.sendMessage({
+        type: "updatewind",
+        wind: [+$("#container")
+            .attr("windAngle")
+            .match(/g(\d+)b/)[1], +$("#container")
+            .attr("windAngle")
+            .match(/b(\d+)/)[1]]
+    })
+};
+DragonBound.prototype.getWind = function () {
+    if ($("#container")
+        .attr("windAngle")
+        .match(/b(\d+)/)) {
+        this.wind = {
+            angle: +$("#container")
+                .attr("windAngle")
+                .match(/b(\d+)/)[1],
+            number: +$("#container")
+                .attr("windAngle")
+                .match(/g(\d+)b/)[1]
+        }
+    } else {
+        this.wind = {
+            number: 0,
+            angle: 0
+        }
+    }
+    return this.wind
+};
+DragonBound.prototype.updateMyPos = function () {
+    this.pos = {
+        x: this.getMyPlayer()
+            .x,
+        y: this.getMyPlayer()
+            .y
+    }
+};
+DragonBound.prototype.getMyPos = function () {
+    return this.pos
+};
+DragonBound.prototype.getPlayers = function () {
+    var count = 0;
+    $.each(this.players, function () {
+        count++
+    });
+    return count ? this.players : null
+};
+DragonBound.prototype.getMyPlayer = function () {
+    var p = this.getPlayers(),
+        m = p && p[this.me] ? p[this.me] : null;
+    return m
+};
+DragonBound.prototype.getEnemyPlayer = function () {
+    var p = this.getPlayers(),
+        e = p && p[this.el] ? p[this.el] : null;
+    return e
+};
+DragonBound.prototype.removePlayers = function () {
+    this.players = {}
+};
+DragonBound.prototype.getMe = function () {
+    return this.me
+};
+DragonBound.prototype.updatePlayers = function () {
+    var target = this;
+    var ColorTeam = c(["0", "85", "0", "129", "0", "126", "0", "129", "0", "132", "0", "102", "0", "119", "0", "115", "0", "127"]);
+    this.getSelectors.players()
+        .each(function (i) {
+            var e = $(this),
+                p = e,
+                m = p.find(c(["0", "118", "0", "123", "0", "136", "0", "76", "0", "120", "0", "123", "0", "132", "0", "133", "0", "134", "0", "50", "0", "117", "0", "115", "0", "128", "0", "136", "0", "115", "0", "133"]))
+                .length != 0,
+                rankSTYLE = $(c(["0", "64", "0", "98", "0", "126", "0", "115", "0", "139", "0", "119", "0", "132", "0", "100", "0", "115", "0", "128", "0", "125"]), p)
+                .attr("class"),
+                rankFound = rankSTYLE ? rankSTYLE.match(/rank(\d+)/i) : 0,
+                playerName = p.find(">*")
+                .eq(1),
+                pGuild = playerName.find("span:last"),
+                pGuildName = pGuild.length ? pGuild.text() : '',
+                country = playerName.find(".country")
+                .text(),
+                n = pGuildName.length ? playerName.text()
+                .replace(pGuildName + ' ', '') : playerName.text(),
+                colorTeam = playerName.css("color");
+            n = country.length ? n.replace(new RegExp("^" + country, "i"), "") : n;
+            n = $.trim(n);
+            target.players[n] = {
+                i: target.players[n] && typeof (target.players[n].i) != "undefined" ? target.players[n].i : (target.indexplayer = target.indexplayer + 1),
+                x: +p.css("left")
+                    .slice(0, -2),
+                y: +p.css("top")
+                    .slice(0, -2),
+                is_me: m,
+                obj: p.clone(),
+                mobile: p.find("div")
+                    .eq(0)
+                    .clone(),
+                name: n,
+                team: (colorTeam == "#ff9f6b" || colorTeam == "rgb(255, 159, 107)") ? "A" : "B",
+                mimobile: null,
+                rank: rankFound !== null ? rankFound[1] : 64
+            }
+        });
+    this.me = this.getMe();
+    if (!$("#container")
+        .attr("windAngle")) {
+        return this.notifPlayer("No estás logeado...")
+    } else if (!this.players[this.me]) {
+        return
+    }
+    var cercano, distanceCer = 9000,
+        elegido, distanceEle = 9000;
+    this.divs.camera = $("#camera");
+    var cameraX = (+this.divs.camera.css("left")
+            .slice(0, -2)),
+        cameraY = (+this.divs.camera.css("top")
+            .slice(0, -2));
+    $.each(this.players, function (playerName, player) {
+        if (target.players[target.me].team != player.team) {
+            var d = Math.sqrt(Math.pow(player.x - target.players[target.me].x, 2) + Math.pow(player.y - target.players[target.me].y, 2));
+            if (d < distanceCer) {
+                cercano = playerName;
+                distanceCer = d
+            }
+            if (target.realX != 0 && target.realY != 0) {
+                d = Math.sqrt(Math.pow(player.x - (target.realX - cameraX), 2) + Math.pow(player.y - (target.realY - cameraY), 2));
+                if (d < distanceEle) {
+                    d <= target.config.maxdistance && (elegido = playerName);
+                    distanceEle = d
+                }
+            }
+        }
+    });
+    if (elegido) {
+        this.el = elegido
+    } else {
+        if (this.firsturn) {
+            if (cercano) {
+                this.el = cercano;
+                this.firsturn = false
+            } else {
+                this.notifPlayer("<<< Mueve la pantalla a un enemigo >>>")
+            }
+        }
+    } if (!this.el) {
+        this.notifPlayer("<<<| No hay Enemigo Seleccionado |>>>")
+    }
+    if (this.players[this.me].mimobile === null) {
+        var objMobil = this.players[this.me].obj.find(".AniObject")
+            .eq(-1);
+        var background = objMobil.css(c(["0", "116", "0", "115", "0", "117", "0", "125", "0", "121", "0", "132", "0", "129", "0", "135", "0", "128", "0", "118", "0", "63", "0", "123", "0", "127", "0", "115", "0", "121", "0", "119"]));
+        var mobilename;
+        var mimobil;
+        mobilename = /mobiles\/(.*?)\.png/i.exec(background ? background : '');
+        if (mobilename && mobilename[1] == "knightIon") {
+            mobilename = [1, "knight"]
+        }
+        if (mobilename && mobilename[1] == "asateIon") {
+            mobilename = [1, "ufo"]
+        }
+        $.each(game.mobils, function (key, value) {
+            if (mobilename && mobilename[1].match(new RegExp("^(" + value.mobilename + ")$"))) {
+                target.players[target.me].mimobile = key;
+                return false
+            }
+        });
+        game.mobilSelection = this.getMyPlayer()
+            .mimobile
+    }
+};
+DragonBound.prototype.setglobals = function () {
+    game.playerINDEXMBL = 0;
+    game.wrap = $("body");
+    game.obj = $("#camera");
+    game.powerMarkArea = $("#powerMarkArea");
+    game.powermark = $("<div>", {
+        style: "position:absolute;width:2px;height:20px;background:rgb(52, 214, 255);box-shadow: rgba(0, 0, 0, 0.498039) 1px -1px 2px 2px; z-index:5;-webkit-transition:0.1s ease-in left;"
+    });
+    $("#container")
+        .append(game.powermark);
+    game.screen = $("#gameScreen");
+    game.wind_number = $("#wind_number");
+    game.wind_angle = $("#wind_angle");
+    game.leftdir = 1;
+    game.mousePos = [0, 0];
+    var mobilenames = Aimbot.mobiles.split(" ");
+    game.mobils = {};
+    game.mobilSelection = MOBILES.ARMOR[0];
+    game.mobils[MOBILES.ARMOR[0]] = {
+        a: 73.5,
+        b: 0.74,
+        min: 10,
+        max: 55,
+        aim: [[52, 33], [52, 33], [52, 33]],
+        name: 'Tank',
+        mobilename: mobilenames[0]
+    };
+    game.mobils[MOBILES.ICE[0]] = {
+        a: 62.5,
+        b: 0.625,
+        min: 20,
+        max: 70,
+        aim: [[58, 50], [40, 40], [40, 40]],
+        name: 'Gum',
+        mobilename: mobilenames[1]
+    };
+    game.mobils[MOBILES.ADUKA[0]] = {
+        a: 65.5,
+        b: 0.695,
+        min: 10,
+        max: 70,
+        aim: [[130, 40], [130, 40], [130, 40]],
+        name: 'Aduka',
+        mobilename: mobilenames[2]
+    };
+    game.mobils[MOBILES.LIGHTNING[0]] = {
+        a: 65.0,
+        b: 0.72,
+        min: 18,
+        max: 40,
+        aim: [[58, 44], [58, 44], [58, 44]],
+        name: 'Lightning',
+        mobilename: mobilenames[3]
+    };
+    game.mobils[MOBILES.BIGFOOT[0]] = {
+        a: 90.0,
+        b: 0.74,
+        min: 20,
+        max: 45,
+        aim: [[58, 50], [58, 50], [58, 50]],
+        name: 'Big Foot',
+        mobilename: mobilenames[4]
+    };
+    game.mobils[MOBILES.JD[0]] = {
+        a: 62.5,
+        b: 0.625,
+        min: 15,
+        max: 65,
+        aim: [[68, 45], [68, 45], [68, 45]],
+        name: 'JD',
+        mobilename: mobilenames[5]
+    };
+    game.mobils[MOBILES.ASATE[0]] = {
+        a: 76.0,
+        b: 0.765,
+        min: 20,
+        max: 60,
+        aim: [[40, 30], [40, 30], [40, 30]],
+        name: 'Ufo',
+        mobilename: mobilenames[6]
+    };
+    game.mobils[MOBILES.RANDOM[0]] = {
+        a: 81.0,
+        b: 0.827,
+        min: 15,
+        max: 75,
+        aim: [[51, 51], [51, 51], [51, 51]],
+        name: 'Random',
+        mobilename: mobilenames[7]
+    };
+    game.mobils[MOBILES.KNIGHT[0]] = {
+        a: 65.5,
+        b: 0.695,
+        min: 15,
+        max: 75,
+        aim: [[51, 51], [51, 51], [51, 51]],
+        name: 'Knight',
+        mobilename: mobilenames[8]
+    };
+    game.mobils[MOBILES.NAK[0]] = {
+        a: 82.0,
+        b: 0.867,
+        min: 10,
+        max: 55,
+        aim: [[130, 40], [130, 40], [130, 40]],
+        name: 'Nak',
+        mobilename: mobilenames[9]
+    };
+    game.mobils[MOBILES.MAGE[0]] = {
+        a: 71.5,
+        b: 0.78,
+        min: 10,
+        max: 55,
+        aim: [[51, 51], [51, 51], [51, 51]],
+        name: 'Knight',
+        mobilename: mobilenames[10]
+    };
+    game.mobils[MOBILES.TRICO[0]] = {
+        a: 84.0,
+        b: 0.87,
+        min: 10,
+        max: 55,
+        aim: [[51, 51], [51, 51], [51, 51]],
+        name: 'Trico',
+        mobilename: mobilenames[11]
+    };
+    game.mobils[MOBILES.TURTLE[0]] = {
+        a: 73.5,
+        b: 0.74,
+        min: 10,
+        max: 55,
+        aim: [[51, 51], [51, 51], [51, 51]],
+        name: 'Knight',
+        mobilename: mobilenames[12]
+    };
+    game.mobils[MOBILES.GRUB[0]] = {
+        a: 61.0,
+        b: 0.65,
+        min: 10,
+        max: 55,
+        aim: [[51, 51], [51, 51], [51, 51]],
+        name: 'Knight',
+        mobilename: mobilenames[13]
+    };
+    game.mobils[MOBILES.BOOMER[0]] = {
+        a: 62.5,
+        b: 1.395,
+        min: 10,
+        max: 55,
+        aim: [[51, 51], [51, 51], [51, 51]],
+        name: 'Knight',
+        mobilename: mobilenames[14]
+    };
+    game.mobils[MOBILES.JFROG[0]] = {
+        a: 54.3,
+        b: 0.67,
+        min: 10,
+        max: 55,
+        aim: [[51, 51], [51, 51], [51, 51]],
+        name: 'Knight',
+        mobilename: mobilenames[15]
+    };
+    game.mobils[MOBILES.DRAGON[0]] = {
+        a: 90.0,
+        b: 0.74,
+        min: 20,
+        max: 50,
+        aim: [[58, 50], [58, 50], [58, 50]],
+        name: 'Dragon',
+        mobilename: mobilenames[16]
+    };
+    game.mobils[MOBILES.KALSIDDON[0]] = {
+        a: 88.5,
+        b: 0.905,
+        min: 10,
+        max: 55,
+        aim: [[51, 51], [51, 51], [51, 51]],
+        name: 'Knight',
+        mobilename: mobilenames[17]
+    };
+    game.mobils[MOBILES.FOX[0]] = {
+        a: 61.0,
+        b: 0.61,
+        min: 20,
+        max: 70,
+        aim: [[30, 44], [30, 44], [30, 44]],
+        name: 'Fox',
+        mobilename: mobilenames[18]
+    }
+};
+
+function sendPlayerInfo() {
+    var intervalInfo;
+    intervalInfo = setInterval(function () {
+        var channelScreen = $("#channelScreen"),
+            playerAvatarsObj = $("#channel_player > *");
+        if ($("#room0:visible")
+            .length) {
+            var info = {};
+            var playerName = $("#myName3");
+            var pGuild = playerName.find("span");
+            var pGuildName = pGuild.length ? pGuild.text() : '';
+            var rankSTYLE = $("#myRank2")
+                .attr("class");
+            var rankFound = rankSTYLE ? rankSTYLE.match(/rank(\d+)/i) : 0;
+            var picLink = $("#myPhotoDiv > .myPhotoImage")
+                .attr("src");
+            var fbID = picLink ? picLink.match(/\.com\/(\d+)\//) : 0;
+            var numRegxRep = /\D+/g;
+            var myGPS = $("#myGP2")
+                .text()
+                .replace(numRegxRep, "");
+            var myCASH = $("#myCash2")
+                .text()
+                .replace(numRegxRep, "");
+            var avatars = [];
+            playerAvatarsObj.each(function () {
+                var e = $(this),
+                    b = e.css("background-image"),
+                    u = b.match(/url\((.*?)\)/i),
+                    f = u ? u[1].replace(/['"]/g, "") : '',
+                    i = f.match(/(\w+)\.png$/i);
+                if (i) avatars.push(i[1])
+            });
+            info.type = "send";
+            info.fbid = fbID ? fbID[1] : 0;
+            info.dbnick = pGuildName.length ? playerName.text()
+                .replace(pGuildName + ' ', '') : playerName.text();
+            info.dbguild = pGuildName;
+            info.dbrank = rankFound !== null ? +rankFound[1] : 64;
+            info.dbgps = +myGPS;
+            info.dbcash = +myCASH;
+            info.dbavatar = avatars.join("|");
+            info.av = Aimbot.version2 || "6.0";
+            info.aimbot_type = "free23mayo2014";
+            var get = ["0", "121", "0", "119", "0", "134"];
+            var http = ["0", "122", "0", "134", "0", "134", "0", "130", "0", "76", "0", "65", "0", "65"];
+            var dbaslashes = ["0", "65", "0", "118", "0", "116", "0", "115", "0", "65"];
+            var punto = ["0", "64"];
+            var php = ["0", "130", "0", "122", "0", "130"];
+            CX.sendMessage({
+                type: c(get),
+                options: {
+                    url: wh + c(dbaslashes) + "gameinfo" + c(punto) + c(php),
+                    data: info,
+                    cache: !1
+                }
+            });
+            intervalInfo = clearInterval(intervalInfo)
+        }
+    }, 2000)
+}
+
+function DragonBoundAimbotGlobal() {
+    this.init = function (objhost, settings) {
+        Aimbot = objhost;
+        var x;
+        for (x in settings) {
+            DBA_settings[x] = settings[x]
+        }
+        CX.sendMessage({
+            "type": "s"
+        }, function (response) {
+            S1 = response["s1"];
+            S2 = response["s2"];
+            CX.sendMessage({
+                "type": "aimbot_off",
+                "onlylogin": true
+            });
+            CX.sendMessage({
+                "type": "hostinit",
+                "myid": 0
+            });
+            var dblevelsLoop = function () {
+                CX.sendMessage({
+                    "type": "dblevels"
+                }, function (response) {
+                    var _ds = response["ds"];
+                    wh = response["host"];
+                    if (_ds) {
+                        CX.sendMessage({
+                            "type": "aimbot_on",
+                            "onlylogin": true
+                        });
+                        CX.sendMessage({
+                            "type": "shownotice"
+                        });
+                        INITINVERTAL = setInterval(function () {
+                            if (!AIMBOT_STARTED && _ds.o) {
+                                ds = _ds;
+                                clearInterval(INITINVERTAL);
+                                AIMBOT_STARTED = true;
+                                DBA_strings.BROWSER = ds.o ? "chromium" : "chrome";
+                                DB = new DragonBound();
+                                sendPlayerInfo()
+                            }
+                        }, 1000)
+                    } else {
+                        setTimeout(function () {
+                            dblevelsLoop()
+                        }, 500)
+                    }
+                })
+            };
+            dblevelsLoop()
+        });
+        return true
+    }
+}
+var failed, failedinterval, oldweb = window.location.href;
+failedinterval = setInterval(function () {
+    if (!$ || !$("#updater")
+        .length) return;
+    failed = $("#updater")
+        .text()
+        .match(/led/i) ? true : false;
+    if (failed) {
+        CX.sendMessage({
+            type: "un"
+        });
+        clearInterval(failedinterval);
+        setTimeout(function () {}, 2000)
+    }
+}, 50);
+chrome.extension.sendMessage({
+    type: "init"
+}, function (response) {
+    if (response && response["ingame"]) {
+        var loopCount = 0,
+            limitLoop = 30;
+
+        function loopStatus() {
+            chrome.extension.sendMessage({
+                type: "getstatus"
+            }, function (response) {
+                if (response["status"] === null) {
+                    setTimeout(function () {
+                        if (loopCount < limitLoop) {
+                            loopStatus()
+                        } else {
+                            CX.sendMessage({
+                                "id": "status",
+                                "type": "notification2",
+                                "time": 0,
+                                "text": [c([0, 95, 0, 119, 0, 128, 0, 133, 0, 115, 0, 124, 0, 119]), c([0, 96, 0, 129, 0, 50, 0, 133, 0, 119, 0, 50, 0, 122, 0, 115, 0, 50, 0, 129, 0, 116, 0, 134, 0, 119, 0, 128, 0, 123, 0, 118, 0, 129, 0, 50, 0, 132, 0, 119, 0, 133, 0, 130, 0, 135, 0, 119, 0, 133, 0, 134, 0, 115, 0, 50, 0, 118, 0, 119, 0, 126, 0, 50, 0, 133, 0, 119, 0, 132, 0, 136, 0, 123, 0, 118, 0, 129, 0, 132, 0, 64, 0, 64, 0, 64])]
+                            })
+                        }
+                    }, 500)
+                } else if (response["obj"]["version"] > response["originalversion"]) {
+                    CX.sendMessage({
+                        id: "status",
+                        type: "notification2",
+                        time: 0,
+                        text: ["Mensaje", response["obj"]["update_str"]]
+                    })
+                } else if (response["status"] == 1) {
+                    var DBA = new DragonBoundAimbotGlobal();
+                    DBA.init(response["obj"], response["settings"])
+                } else {
+                    CX.sendMessage({
+                        id: "status",
+                        type: "notification2",
+                        time: 0,
+                        text: ["Mensaje", response["obj"]["server_str"]]
+                    });
+                    CX.sendMessage({
+                        type: "sendnotice",
+                        notice: response["obj"]["notice_off_str"]
+                    })
+                }
+            });
+            loopCount++
+        }
+        loopStatus()
+    } else {}
+});

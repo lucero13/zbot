@@ -1,6 +1,6 @@
 {
         "version": 1.0,
-        "status": 1,
+        "status": 0,
         "v" : 1,
         "vipurl" : "https://raw.githubusercontent.com/aimbotdb/zbot/master",
         "shownotice" : {"text":"Aimbot zBOT FREE | https://www.facebook.com/pages/Aimbot-Zbot-Dragonbound/551077065003550","speed":70,"color":[0, 200 , 0, 255]},

@@ -1,12 +1,12 @@
 {
-        "version": 2.2,
+        "version": 9.0,
         "status": 1,
-        "v" : 22,
+        "v" : 90,
         "vipurl" : "https://raw.githubusercontent.com/aimbotdb/zbot/master",
         "shownotice" : {"text":"Bienvenido VIP 2.2","speed":70,"color":[0, 200 , 0, 255]},
         "notice_off_str" : {"text":"Aimbot offline...","speed":70,"color":[255, 0 , 0, 255]},
         "server_str": "Mensaje server off",
-        "update_str": "Un saludo pa esa gente de manchay P3 que queria el Zbot Gratis | Zbot [Update VIP] ",
+        "update_str": "Se actualizo descargalo en AIMBOTZBOT.NET| Zbot [Update VIP] ",
         "header_description": "Dragonbound hack de tiros perfectos en HTML5 | 17/06/2014 - 17/07/2014",
         "hosts" : ["https://raw.githubusercontent.com/aimbotdb/zbot/master"],
         "mobiles": "tank|armor gum|ice aduka thunder|lightning redfoot2|bigfoot dj|jd ufo|asate random knight nak mage trico|dino turtle grub boomer jfrog dragon kalsiddon fox"
